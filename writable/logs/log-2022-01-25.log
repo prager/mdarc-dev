@@ -1,0 +1,29 @@
+CRITICAL - 2022-01-25 23:29:31 --> Invalid argument supplied for foreach()
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/members_view.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/homepages/36/d...', 250, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(32): view('master/members_...', Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-25 23:30:21 --> Undefined variable: mem_types
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(295): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 295, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(260): App\Models\Staff_model->get_mem_list()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(32): App\Models\Staff_model->get_mems(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 23:38:50 --> Undefined property: stdClass::$id_member_types
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(316): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/homepages/36/d...', 316, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(260): App\Models\Staff_model->get_mem_list()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(32): App\Models\Staff_model->get_mems(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,78 @@
+CRITICAL - 2022-01-13 19:30:59 --> Undefined index: pass
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/User_model.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 237, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Home.php(210): App\Models\User_model->load_password(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Home->load_password()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 20:00:00 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/BaseController.php(52): spl_autoload_call('App\\Models\\User...')
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-13 20:00:04 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/BaseController.php(52): spl_autoload_call('App\\Models\\User...')
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-13 20:00:52 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/BaseController.php(52): spl_autoload_call('App\\Models\\User...')
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-13 20:01:26 --> Undefined variable: builder
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/User_model.php(288): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 288, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Home.php(258): App\Models\User_model->load_password(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Home->load_password()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 20:02:10 --> Undefined variable: email_key
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/User_model.php(293): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 293, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Home.php(258): App\Models\User_model->load_password(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Home->load_password()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 20:04:19 --> Undefined variable: flags_arr
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Home.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 270, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Home->load_password()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 20:10:21 --> syntax error, unexpected ';'
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-13 20:57:34 --> Undefined variable: print_arr
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Home.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 241, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Home->change_user_pass()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

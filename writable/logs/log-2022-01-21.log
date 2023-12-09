@@ -1,0 +1,245 @@
+CRITICAL - 2022-01-21 00:14:01 --> syntax error, unexpected 'if' (T_IF)
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-21 00:14:35 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-21 00:14:37 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-21 00:14:49 --> syntax error, unexpected 'if' (T_IF)
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-21 00:23:17 --> Undefined variable: retval
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(345): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 345, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-21 00:30:07 --> syntax error, unexpected '}'
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-21 13:41:29 --> Undefined index: id
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 329, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(348): App\Models\Member_model->check_second_dup(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-21 13:42:14 --> Undefined variable: id
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(341): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 341, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-21 14:18:54 --> Undefined index: parent_primary
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 356, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-21 14:21:00 --> Undefined index: fam_mem
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(386): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 386, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-21 14:24:17 --> Undefined index: callsign
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(393): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 393, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-21 15:11:02 --> Undefined property: stdClass::$primary_parent
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/homepages/36/d...', 211, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(161): App\Models\Member_model->get_fam_mem('5323')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(17): App\Models\Member_model->get_fam_mems('2207')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-21 15:14:17 --> Undefined index: id
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/members/member_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 10, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(214): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/Common.php(1097): CodeIgniter\View\View->render('members/member_...', Array, true)
+#4 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(20): view('members/member_...', Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-21 15:51:37 --> Undefined index: 
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/modal_update_user.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 64, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/edit_users_view.php(32): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/Common.php(1097): CodeIgniter\View\View->render('master/edit_use...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Master.php(282): view('master/edit_use...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-21 16:09:12 --> Unknown column 'carrier' in 'field list'
+CRITICAL - 2022-01-21 16:09:12 --> Unknown column 'carrier' in 'field list'
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `tMember...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tMember...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tMember...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tMember...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(379): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-21 16:11:43 --> Unknown column 'dir' in 'field list'
+CRITICAL - 2022-01-21 16:11:43 --> Unknown column 'dir' in 'field list'
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `tMember...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tMember...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tMember...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tMember...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(380): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-21 16:12:28 --> Unknown column 'arrl' in 'field list'
+CRITICAL - 2022-01-21 16:12:28 --> Unknown column 'arrl' in 'field list'
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `tMember...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tMember...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tMember...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tMember...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(381): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-21 16:12:46 --> Unknown column 'phone_unlisted' in 'field list'
+CRITICAL - 2022-01-21 16:12:46 --> Unknown column 'phone_unlisted' in 'field list'
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `tMember...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tMember...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tMember...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tMember...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(382): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-21 16:13:16 --> Unknown column 'pay_date_file' in 'field list'
+CRITICAL - 2022-01-21 16:13:16 --> Unknown column 'pay_date_file' in 'field list'
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `tMember...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tMember...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tMember...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tMember...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(383): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-21 16:14:37 --> Unknown column 'silent' in 'field list'
+CRITICAL - 2022-01-21 16:14:37 --> Unknown column 'silent' in 'field list'
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `tMember...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tMember...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tMember...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tMember...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(384): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-21 17:12:14 --> Trying to get property 'parent_primary' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(396): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 396, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(221): App\Models\Member_model->delete_fam_mem('5324')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->delete_fam_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-21 17:12:47 --> Trying to get property 'parent_primary' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(396): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 396, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(221): App\Models\Member_model->delete_fam_mem('5324')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->delete_fam_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-21 17:39:16 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-21 17:39:43 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

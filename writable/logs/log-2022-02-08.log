@@ -1,0 +1,57 @@
+CRITICAL - 2022-02-08 23:10:46 --> Undefined variable: pay_due
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/staff/members_view.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 130, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('staff/members_v...', Array, true)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Staff.php(52): view('staff/members_v...', Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Staff->show_members()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-08 23:14:49 --> Undefined variable: retarr
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 333, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(277): App\Models\Staff_model->put_emails()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(53): App\Models\Staff_model->get_mems(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 23:31:55 --> array_multisort(): Argument #1 is expected to be an array or a sort flag
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', '/homepages/36/d...', 295, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(295): array_multisort('jwtittle@comcas...', 4)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(277): App\Models\Staff_model->put_emails()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(53): App\Models\Staff_model->get_mems(Array)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 23:32:45 --> Undefined variable: cnt
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 333, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(277): App\Models\Staff_model->put_emails()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(53): App\Models\Staff_model->get_mems(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 23:33:27 --> Undefined variable: tst
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 329, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(277): App\Models\Staff_model->put_emails()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(53): App\Models\Staff_model->get_mems(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 23:36:48 --> Undefined variable: cnt
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(330): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 330, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(277): App\Models\Staff_model->put_emails()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(53): App\Models\Staff_model->get_mems(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

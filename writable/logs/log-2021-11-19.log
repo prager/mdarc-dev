@@ -1,0 +1,9 @@
+CRITICAL - 2021-11-19 20:37:31 --> Invalid file: staff/staff_report_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staff/staff_rep...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/staff_rep...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(251): view('staff/staff_rep...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

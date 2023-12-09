@@ -1,0 +1,115 @@
+CRITICAL - 2022-01-08 18:10:45 --> Trying to get property 'id_mem_types' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/add_mem_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 44, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/add_mem_...', Array, true)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(303): view('master/add_mem_...', Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->add_mem()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 18:15:25 --> Trying to get property 'description' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/add_mem_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 44, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/add_mem_...', Array, true)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(303): view('master/add_mem_...', Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->add_mem()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 18:20:37 --> Invalid argument supplied for foreach()
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/add_mem_view.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/homepages/36/d...', 43, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/add_mem_...', Array, true)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(303): view('master/add_mem_...', Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->add_mem()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 18:27:12 --> syntax error, unexpected '=', expecting ')'
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mast...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mast...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/BaseController.php(51): spl_autoload_call('App\\Models\\Mast...')
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-08 18:27:50 --> Undefined variable: type_description
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Master_model.php(275): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 275, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(302): App\Models\Master_model->get_member_types()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->add_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 18:28:08 --> Undefined variable: type_description
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Master_model.php(275): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 275, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(302): App\Models\Master_model->get_member_types()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->add_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 18:42:16 --> Undefined variable: member_types
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/modal_update_mem.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 45, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/members_view.php(57): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(32): view('master/members_...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-08 18:43:47 --> Undefined variable: member_types
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/modal_update_mem.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 45, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/members_view.php(57): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(32): view('master/members_...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-08 18:52:35 --> Undefined index: member_types
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 91, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(77): App\Models\Staff_model->get_mems(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 18:53:44 --> Undefined index: member_types
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 91, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(77): App\Models\Staff_model->get_mems(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 18:56:18 --> Undefined index: member_types
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 91, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(78): App\Models\Staff_model->get_mems(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-08 18:57:08 --> Undefined index: member_types
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 91, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(78): App\Models\Staff_model->get_mems(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

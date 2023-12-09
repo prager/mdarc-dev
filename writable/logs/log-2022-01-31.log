@@ -1,0 +1,39 @@
+CRITICAL - 2022-01-31 00:18:47 --> Invalid file: master/set_pass_view.php
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/set_pass...')
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/set_pass...', Array, true)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(431): view('master/set_pass...', Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->reset_user()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-31 00:32:21 --> Undefined index: username
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/User_model.php(315): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 315, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Home.php(296): App\Models\User_model->load_password(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Home->load_password()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 00:34:36 --> Undefined index: username
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/User_model.php(271): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 271, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Home.php(261): App\Models\User_model->change_user_pass(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Home->change_user_pass()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 23:21:29 --> Undefined index: id_user
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Home.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 269, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Home->change_user_pass()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-31 23:28:31 --> Undefined index: email_key
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Home.php(274): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 274, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Home->change_user_pass()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

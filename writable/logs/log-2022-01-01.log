@@ -1,0 +1,113 @@
+ERROR - 2022-01-01 18:25:06 --> Column 'id_user_type' cannot be null
+CRITICAL - 2022-01-01 18:37:32 --> syntax error, unexpected ')', expecting ']'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(42): view('public/register...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 18:38:24 --> syntax error, unexpected '?>'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(42): view('public/register...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 18:38:50 --> syntax error, unexpected '?>'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(42): view('public/register...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 18:39:23 --> syntax error, unexpected '?>'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(42): view('public/register...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 18:40:14 --> syntax error, unexpected '?>'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(42): view('public/register...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 18:40:28 --> syntax error, unexpected '?>'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(42): view('public/register...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 18:41:01 --> syntax error, unexpected '?>'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(42): view('public/register...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 18:42:54 --> syntax error, unexpected '?>'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(42): view('public/register...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 18:43:45 --> syntax error, unexpected '?>'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(42): view('public/register...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 18:46:07 --> syntax error, unexpected '?>'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(42): view('public/register...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-01-01 18:53:27 --> Column 'id_user_type' cannot be null
+CRITICAL - 2022-01-01 18:55:11 --> Invalid file: public/set_pass_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/set_pass...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/set_pass...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(144): view('public/set_pass...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->set_pass()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-01-01 18:56:12 --> Column 'id_user_type' cannot be null
+ERROR - 2022-01-01 19:00:49 --> Column 'id_user_type' cannot be null
+ERROR - 2022-01-01 19:02:52 --> Column 'id_user_type' cannot be null
+CRITICAL - 2022-01-01 19:12:12 --> Invalid file: public/set_pass_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/set_pass...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('public/set_pass...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(145): view('public/set_pass...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->set_pass()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

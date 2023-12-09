@@ -1,0 +1,178 @@
+CRITICAL - 2021-11-27 14:39:40 --> Invalid file: staff/staff_report_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staff/staff_rep...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/staff_rep...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(248): view('staff/staff_rep...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 14:39:50 --> Invalid file: template/simp_header.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/simp_h...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('template/simp_h...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(283): view('template/simp_h...')
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->print_dir()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 14:45:27 --> Call to undefined method App\Controllers\Member::check_mem()
+#0 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-27 14:46:23 --> Call to undefined method App\Controllers\Member::check_mem()
+#0 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-27 14:46:32 --> Call to undefined method App\Controllers\Member::check_mem()
+#0 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-27 14:47:01 --> Call to undefined method App\Controllers\Member::check_mem()
+#0 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-27 14:48:13 --> Call to undefined method App\Controllers\Member::check_mem()
+#0 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-27 14:48:20 --> Call to undefined method App\Controllers\Member::check_mem()
+#0 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-27 14:50:08 --> Call to undefined method App\Controllers\Member::check_mem()
+#0 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-27 14:53:39 --> Invalid file: members/member_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('members/member_...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/member_...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(16): view('members/member_...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 14:56:28 --> syntax error, unexpected '*'
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-27 14:57:35 --> Invalid file: members/member_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('members/member_...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/member_...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(16): view('members/member_...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 14:59:11 --> Invalid file: members/member_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('members/member_...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/member_...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(16): view('members/member_...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 14:59:12 --> Invalid file: members/member_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('members/member_...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/member_...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(16): view('members/member_...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 15:00:25 --> Invalid file: members/member_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('members/member_...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/member_...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(16): view('members/member_...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 15:00:36 --> Invalid file: members/member_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('members/member_...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/member_...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(16): view('members/member_...')
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 15:00:37 --> Invalid file: members/member_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('members/member_...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/member_...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(16): view('members/member_...')
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 15:00:37 --> Invalid file: members/member_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('members/member_...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/member_...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(16): view('members/member_...')
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 15:25:39 --> syntax error, unexpected '$mem' (T_VARIABLE), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/member_...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(16): view('members/member_...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 16:18:55 --> Invalid file: members/pers_data_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('members/pers_da...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/pers_da...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(33): view('members/pers_da...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->pers_data()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 16:19:20 --> Invalid file: members/pers_data_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('members/pers_da...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('members/pers_da...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Member.php(33): view('members/pers_da...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Member->pers_data()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-27 16:34:26 --> Invalid file: staff/staff_report_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staff/staff_rep...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/staff_rep...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(248): view('staff/staff_rep...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

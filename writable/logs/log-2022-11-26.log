@@ -1,0 +1,36 @@
+CRITICAL - 2022-11-26 15:03:45 --> Too few arguments to function App\Models\Staff_model::get_rep(), 0 passed in /homepages/36/d117019790/htdocs/mdarc-7/app/Models/Staff_model.php on line 279 and exactly 1 expected
+#0 /homepages/36/d117019790/htdocs/mdarc-7/app/Models/Staff_model.php(279): App\Models\Staff_model->get_rep()
+#1 /homepages/36/d117019790/htdocs/mdarc-7/app/Controllers/Staff.php(353): App\Models\Staff_model->get_dir_data()
+#2 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(824): App\Controllers\Staff->print_dir()
+#3 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#4 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-7/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-26 15:04:40 --> Too few arguments to function App\Models\Staff_model::get_rep(), 0 passed in /homepages/36/d117019790/htdocs/mdarc-7/app/Models/Staff_model.php on line 279 and exactly 1 expected
+#0 /homepages/36/d117019790/htdocs/mdarc-7/app/Models/Staff_model.php(279): App\Models\Staff_model->get_rep()
+#1 /homepages/36/d117019790/htdocs/mdarc-7/app/Controllers/Staff.php(353): App\Models\Staff_model->get_dir_data()
+#2 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(824): App\Controllers\Staff->print_dir()
+#3 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#4 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-7/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-26 15:07:20 --> You must set the database table to be used with your query.
+#0 /homepages/36/d117019790/htdocs/mdarc-7/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /homepages/36/d117019790/htdocs/mdarc-7/system/Model.php(688): CodeIgniter\Model->builder()
+#2 /homepages/36/d117019790/htdocs/mdarc-7/app/Models/Staff_model.php(280): CodeIgniter\Model->__get('request')
+#3 /homepages/36/d117019790/htdocs/mdarc-7/app/Controllers/Staff.php(353): App\Models\Staff_model->get_dir_data()
+#4 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(824): App\Controllers\Staff->print_dir()
+#5 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-7/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-26 15:07:39 --> You must set the database table to be used with your query.
+#0 /homepages/36/d117019790/htdocs/mdarc-7/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /homepages/36/d117019790/htdocs/mdarc-7/system/Model.php(688): CodeIgniter\Model->builder()
+#2 /homepages/36/d117019790/htdocs/mdarc-7/app/Models/Staff_model.php(280): CodeIgniter\Model->__get('request')
+#3 /homepages/36/d117019790/htdocs/mdarc-7/app/Controllers/Staff.php(353): App\Models\Staff_model->get_dir_data()
+#4 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(824): App\Controllers\Staff->print_dir()
+#5 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-7/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

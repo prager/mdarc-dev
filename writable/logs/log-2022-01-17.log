@@ -1,0 +1,108 @@
+CRITICAL - 2022-01-17 15:11:52 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-17 15:12:47 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-17 15:17:33 --> Undefined variable: db
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 232, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(114): App\Models\Member_model->add_fam_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->add_fam_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-17 15:20:30 --> Invalid file: template/footer_member.php
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/footer...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Common.php(1097): CodeIgniter\View\View->render('template/footer...', Array, true)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(124): view('template/footer...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->add_fam_mem()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-17 15:26:34 --> Undefined index: 
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/modal_update_user.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 64, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/edit_users_view.php(32): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/Common.php(1097): CodeIgniter\View\View->render('master/edit_use...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Master.php(220): view('master/edit_use...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-17 15:43:29 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/homepages/36/d...', 270, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(270): count(false)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(178): App\Models\Member_model->delete_fam_mem('5305')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->delete_fam_mem()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-17 15:45:14 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/homepages/36/d...', 270, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(270): count(false)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(178): App\Models\Member_model->delete_fam_mem('5306')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->delete_fam_mem()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-17 15:53:12 --> Undefined index: flag
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(271): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 271, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(178): App\Models\Member_model->delete_fam_mem('5307')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->delete_fam_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-17 16:04:19 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/homepages/36/d...', 275, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(275): count(false)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(178): App\Models\Member_model->delete_fam_mem('5307')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->delete_fam_mem()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-17 17:06:32 --> include(modal_undel_mem.php): failed to open stream: No such file or directory
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/members_view.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modal_u...', '/homepages/36/d...', 178, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/members_view.php(178): include()
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Master.php(32): view('master/members_...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-17 17:30:05 --> Undefined index: 
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/modal_update_user.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 64, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/edit_users_view.php(32): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/Common.php(1097): CodeIgniter\View\View->render('master/edit_use...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Master.php(251): view('master/edit_use...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

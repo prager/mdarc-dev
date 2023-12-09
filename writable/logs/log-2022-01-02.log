@@ -1,0 +1,339 @@
+CRITICAL - 2022-01-02 00:37:11 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-02 01:36:33 --> syntax error, unexpected '$type' (T_VARIABLE), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 01:41:03 --> key() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'key() expects p...', '/homepages/36/d...', 78, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Master.php(78): key('Master user')
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-02 15:04:34 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:04:34 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-02 15:04:58 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:04:58 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-02 15:05:06 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:05:06 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-02 15:05:16 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:05:16 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-02 15:05:23 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:05:23 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-02 15:05:30 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:05:30 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-02 15:05:36 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:05:36 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-02 15:08:18 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:08:18 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-02 15:08:34 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:08:34 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-02 15:09:10 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:09:10 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-02 15:09:30 --> Unknown column 'cur_yr' in 'where clause'
+CRITICAL - 2022-01-02 15:09:30 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:40:57 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:41:03 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:41:07 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:42:36 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:43:22 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:43:24 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:43:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/homepages/36/d...', 594, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Models/Staff_model.php(594): count(NULL)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Models/Staff_model.php(520): App\Models\Staff_model->get_cur_mems(Array)
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 15:43:55 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:44:14 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:44:15 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:44:33 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:44:58 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:48:43 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 15:50:02 --> Call to a member function resetQuery() on null
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 16:46:58 --> Call to undefined function App\Models\get_renewals_year()
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 17:15:56 --> Call to undefined method App\Controllers\Master::check_staff()
+#0 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-02 17:16:53 --> Invalid file: master/members_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/members_...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Master.php(31): view('master/members_...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 17:56:34 --> include(modal_update_mem.php): failed to open stream: No such file or directory
+#0 /homepages/36/d117019790/htdocs/ci415/app/Views/staff/members_view.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modal_u...', '/homepages/36/d...', 121, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Views/staff/members_view.php(121): include()
+#2 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/members_v...', Array, true)
+#5 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(30): view('staff/members_v...', Array)
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->show_members()
+#7 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#8 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 17:56:48 --> include(modal_update_mem.php): failed to open stream: No such file or directory
+#0 /homepages/36/d117019790/htdocs/ci415/app/Views/staff/members_view.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modal_u...', '/homepages/36/d...', 121, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Views/staff/members_view.php(121): include()
+#2 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/members_v...', Array, true)
+#5 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(30): view('staff/members_v...', Array)
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->show_members()
+#7 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#8 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 18:49:01 --> syntax error, unexpected ';', expecting ')'
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Staf...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Staf...')
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/BaseController.php(54): spl_autoload_call('App\\Models\\Staf...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 19:02:47 --> date() expects parameter 2 to be int, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', '/homepages/36/d...', 585, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Models/Staff_model.php(585): date('Y', Array)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Models/Staff_model.php(562): App\Models\Staff_model->get_all_mems(Array)
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 19:04:39 --> date() expects parameter 2 to be int, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', '/homepages/36/d...', 585, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Models/Staff_model.php(585): date('Y', Array)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Models/Staff_model.php(562): App\Models\Staff_model->get_all_mems(Array)
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 19:05:45 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/homepages/36/d...', 562, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Models/Staff_model.php(562): count(100)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(271): App\Models\Staff_model->get_rep(Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 23:11:27 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/homepages/36/d...', 103, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Models/Master_model.php(103): array_push(NULL, Array)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Models/Master_model.php(55): App\Models\Master_model->get_user_types()
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Master.php(72): App\Models\Master_model->get_users_data()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 23:16:09 --> syntax error, unexpected '}'
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mast...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mast...')
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/BaseController.php(51): spl_autoload_call('App\\Models\\Mast...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 23:16:22 --> syntax error, unexpected '}'
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mast...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mast...')
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/BaseController.php(51): spl_autoload_call('App\\Models\\Mast...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 23:16:36 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/homepages/36/d...', 107, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Models/Master_model.php(107): array_push(NULL, 'Master user')
+#2 /homepages/36/d117019790/htdocs/ci415/app/Models/Master_model.php(55): App\Models\Master_model->get_user_types()
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Master.php(72): App\Models\Master_model->get_users_data()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-02 23:28:59 --> Unknown column 'id_user_types' in 'field list'

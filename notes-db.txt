@@ -1,0 +1,34 @@
+tables: payments, payactions, entities
+
+mem_payments table: id_payment, id_member, id_payaction, id_entity, amount, pay_date, result, flag, val_string
+
+payactions table: id_payaction, description, url_id, amount
+
+entities table: id_entity, description, url_id
+
+https://www.forbes.com/advisor/business/software/stripe-review/
+
+Generate random password:
+https://stackoverflow.com/questions/6101956/generating-a-random-password-in-php
+
+Toggle password:
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_password
+
+Password generator:
+https://gist.github.com/compermisos/cf11aed742d2e1fbd994e083b4b0fa78
+
+Password check meter:
+https://www.geeksforgeeks.org/create-a-password-strength-checker-using-html-css-and-javascript/
+
+Next tasks:
+- new membership and renewal for non-users (finish)
+- add gift membership
+- cancel out of payment and redirect to Membership Portal
+- process data with failed payment
+- don't process donation if it is under $5.00
+- payment reports + excel download
+- add issues register (also use Github)
+- check for existing user when submitting email to register
+- add search for members
+- add addional user profiles for Staff and Admin
+- add two factor authentication

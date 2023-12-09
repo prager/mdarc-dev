@@ -1,0 +1,61 @@
+CRITICAL - 2022-01-18 00:37:49 --> Undefined index: 
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/modal_update_user.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 64, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/edit_users_view.php(32): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/Common.php(1097): CodeIgniter\View\View->render('master/edit_use...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Master.php(282): view('master/edit_use...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-18 17:19:28 --> Trying to access array offset on value of type null
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/homepages/36/d...', 167, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(12): App\Controllers\Member->check_mem()
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-18 18:05:03 --> Undefined index: 
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/modal_update_user.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 64, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/edit_users_view.php(32): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/Common.php(1097): CodeIgniter\View\View->render('master/edit_use...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Master.php(282): view('master/edit_use...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-18 23:42:29 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/homepages/36/d...', 306, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(306): count('1234567890')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(109): App\Models\Member_model->do_phone('1234567890')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(77): App\Models\Member_model->update_mem(Array)
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->update_mem()
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 23:43:21 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/homepages/36/d...', 306, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(306): count('1234567890')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(109): App\Models\Member_model->do_phone('1234567890')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(77): App\Models\Member_model->update_mem(Array)
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->update_mem()
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 23:44:27 --> Undefined variable: retarr
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(322): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 322, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(109): App\Models\Member_model->do_phone('1234567890')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(77): App\Models\Member_model->update_mem(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->update_mem()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

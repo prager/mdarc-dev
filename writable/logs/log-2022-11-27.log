@@ -1,0 +1,18 @@
+CRITICAL - 2022-11-27 14:05:30 --> syntax error, unexpected '' ('' (T_CONSTANT_ENCAPSED_STRING)
+#0 /homepages/36/d117019790/htdocs/mdarc-7/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/mdarc-7/system/Common.php(1097): CodeIgniter\View\View->render('staff/print_cal...', Array, true)
+#2 /homepages/36/d117019790/htdocs/mdarc-7/app/Controllers/Staff.php(369): view('staff/print_cal...', Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(824): App\Controllers\Staff->print_callsigns()
+#4 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-7/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-27 14:06:17 --> syntax error, unexpected '' ('' (T_CONSTANT_ENCAPSED_STRING)
+#0 /homepages/36/d117019790/htdocs/mdarc-7/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /homepages/36/d117019790/htdocs/mdarc-7/system/Common.php(1097): CodeIgniter\View\View->render('staff/print_cal...', Array, true)
+#2 /homepages/36/d117019790/htdocs/mdarc-7/app/Controllers/Staff.php(369): view('staff/print_cal...', Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(824): App\Controllers\Staff->print_callsigns()
+#4 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-7/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

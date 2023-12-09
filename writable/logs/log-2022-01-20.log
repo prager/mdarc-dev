@@ -1,0 +1,21 @@
+CRITICAL - 2022-01-20 11:32:59 --> Undefined index: 
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/modal_update_user.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 64, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Views/master/edit_users_view.php(32): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/Common.php(1097): CodeIgniter\View\View->render('master/edit_use...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Master.php(282): view('master/edit_use...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#7 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-20 23:38:02 --> Undefined index: parent_primary
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(301): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 301, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(317): App\Models\Member_model->check_second_dup(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(169): App\Models\Member_model->edit_fam_mem(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

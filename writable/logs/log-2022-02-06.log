@@ -1,0 +1,61 @@
+CRITICAL - 2022-02-06 14:28:32 --> Undefined variable: page
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/members_view.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 7, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(53): view('master/members_...', Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-06 15:06:51 --> Undefined index: page
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 21, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(164): App\Models\Staff_model->get_mems(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-06 16:21:17 --> syntax error, unexpected 'filter_var' (T_STRING)
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-06 16:56:44 --> Undefined variable: fam_mem
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/modal_update_mem.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 119, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/members_view.php(68): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(53): view('master/members_...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-06 17:24:42 --> You must set the database table to be used with your query.
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Model.php(688): CodeIgniter\Model->builder()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Login_model.php(73): CodeIgniter\Model->__get('check_auth')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Login.php(41): App\Models\Login_model->check_credentials(Array)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Login.php(9): App\Controllers\Login->validate_credentials()
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-06 17:25:10 --> Too few arguments to function App\Models\Login_model::check_auth(), 0 passed in /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Login_model.php on line 73 and exactly 1 expected
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Login_model.php(73): App\Models\Login_model->check_auth()
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Login.php(41): App\Models\Login_model->check_credentials(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Login.php(9): App\Controllers\Login->validate_credentials()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

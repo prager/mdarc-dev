@@ -1,0 +1,47 @@
+CRITICAL - 2022-01-12 00:26:35 --> Undefined index: 
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 106, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Member->add_fam_mem()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-12 19:35:52 --> Trying to access array offset on value of type null
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/homepages/36/d...', 158, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(12): App\Controllers\Member->check_mem()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-12 20:49:21 --> Trying to access array offset on value of type null
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/homepages/36/d...', 158, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(12): App\Controllers\Member->check_mem()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-12 20:49:36 --> Trying to access array offset on value of type null
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/homepages/36/d...', 158, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(12): App\Controllers\Member->check_mem()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-12 20:49:47 --> Trying to access array offset on value of type null
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/homepages/36/d...', 158, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(12): App\Controllers\Member->check_mem()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-12 20:49:59 --> Trying to access array offset on value of type null
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/homepages/36/d...', 158, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(12): App\Controllers\Member->check_mem()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

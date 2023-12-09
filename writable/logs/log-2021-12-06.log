@@ -1,0 +1,21 @@
+CRITICAL - 2021-12-06 19:25:03 --> Invalid file: master/edit_users_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/edit_use...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('master/edit_use...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Master.php(60): view('master/edit_use...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-06 20:40:09 --> include(modal_update_user.php): failed to open stream: No such file or directory
+#0 /homepages/36/d117019790/htdocs/ci415/app/Views/master/edit_users_view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modal_u...', '/homepages/36/d...', 27, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Views/master/edit_users_view.php(27): include()
+#2 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('master/edit_use...', Array, true)
+#5 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Master.php(60): view('master/edit_use...', Array)
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Master->edit_users()
+#7 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

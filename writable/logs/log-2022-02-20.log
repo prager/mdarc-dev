@@ -1,0 +1,20 @@
+CRITICAL - 2022-02-20 14:14:24 --> Cannot redeclare App\Models\Staff_model::get_renewals()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-20 14:15:38 --> Undefined variable: db
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(795): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 795, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Staff.php(313): App\Models\Staff_model->get_rep(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-20 14:44:52 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', '/homepages/36/d...', 812, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(812): date('Y-m-d', '2022-01-21')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Staff.php(314): App\Models\Staff_model->get_rep(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Staff->staff_report()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

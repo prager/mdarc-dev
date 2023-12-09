@@ -1,0 +1,25 @@
+CRITICAL - 2023-01-20 22:59:01 --> Undefined variable: new_user
+#0 /homepages/36/d117019790/htdocs/mdarc-7/app/Controllers/Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 72, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#2 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/mdarc-7/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-20 22:59:27 --> Undefined index: 
+#0 /homepages/36/d117019790/htdocs/mdarc-7/app/Views/public/register_view.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 58, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-7/system/View/View.php(214): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-7/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /homepages/36/d117019790/htdocs/mdarc-7/system/Common.php(1097): CodeIgniter\View\View->render('public/register...', Array, true)
+#4 /homepages/36/d117019790/htdocs/mdarc-7/app/Controllers/Home.php(86): view('public/register...', Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#6 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-7/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 23:00:18 --> Undefined index: state_cd
+#0 /homepages/36/d117019790/htdocs/mdarc-7/app/Controllers/Home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 77, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(824): App\Controllers\Home->register()
+#2 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/mdarc-7/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

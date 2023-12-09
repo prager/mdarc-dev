@@ -1,0 +1,102 @@
+CRITICAL - 2021-11-18 00:05:41 --> File not found: files/curr_mems.csv
+#0 /homepages/36/d117019790/htdocs/ci415/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('files/curr_mems...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct('files/curr_mems...', true)
+#2 /homepages/36/d117019790/htdocs/ci415/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('files/curr_mems...')
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(95): CodeIgniter\HTTP\Response->download('curr_mems.csv', NULL)
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->download_cur_mems()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-18 00:06:17 --> Invalid file: staff/add_mem_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staff/add_mem_v...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/add_mem_v...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(45): view('staff/add_mem_v...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->add_mem()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-18 00:06:45 --> File not found: files/curr_mems.csv
+#0 /homepages/36/d117019790/htdocs/ci415/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('files/curr_mems...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct('files/curr_mems...', true)
+#2 /homepages/36/d117019790/htdocs/ci415/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('files/curr_mems...')
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(95): CodeIgniter\HTTP\Response->download('curr_mems.csv', NULL)
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->download_cur_mems()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-18 00:20:40 --> Invalid file: staff/add_mem_view.php
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staff/add_mem_v...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/add_mem_v...', Array, true)
+#2 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(45): view('staff/add_mem_v...', Array)
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->add_mem()
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-18 19:44:37 --> include(mod_del_mem.php): failed to open stream: No such file or directory
+#0 /homepages/36/d117019790/htdocs/ci415/app/Views/staff/members_view.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(mod_del...', '/homepages/36/d...', 67, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Views/staff/members_view.php(67): include()
+#2 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/members_v...', Array, true)
+#5 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(31): view('staff/members_v...', Array)
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->show_members()
+#7 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#8 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-18 19:44:52 --> include(mod_del_mem.php): failed to open stream: No such file or directory
+#0 /homepages/36/d117019790/htdocs/ci415/app/Views/staff/members_view.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(mod_del...', '/homepages/36/d...', 67, Array)
+#1 /homepages/36/d117019790/htdocs/ci415/app/Views/staff/members_view.php(67): include()
+#2 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/members_v...', Array, true)
+#5 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(31): view('staff/members_v...', Array)
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->show_members()
+#7 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#8 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-18 22:13:13 --> syntax error, unexpected ')'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(214): include()
+#1 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/members_v...', Array, true)
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(31): view('staff/members_v...', Array)
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->show_members()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-18 22:26:50 --> syntax error, unexpected ')'
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(214): include()
+#1 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/members_v...', Array, true)
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(31): view('staff/members_v...', Array)
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->show_members()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-18 22:32:43 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(214): include()
+#1 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/members_v...', Array, true)
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(31): view('staff/members_v...', Array)
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->show_members()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-18 23:15:49 --> syntax error, unexpected end of file
+#0 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(214): include()
+#1 /homepages/36/d117019790/htdocs/ci415/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /homepages/36/d117019790/htdocs/ci415/system/Common.php(1097): CodeIgniter\View\View->render('staff/members_v...', Array, true)
+#3 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Staff.php(31): view('staff/members_v...', Array)
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Staff->show_members()
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

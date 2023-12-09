@@ -1,0 +1,453 @@
+CRITICAL - 2021-12-28 15:21:45 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:21:52 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:22:06 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:22:25 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:22:59 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:23:24 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:23:56 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:24:50 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:25:03 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:26:21 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:26:26 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:44:02 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:44:07 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:45:50 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:45:53 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:48:30 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:48:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:49:04 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:49:12 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:49:14 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:49:20 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:51:06 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:51:11 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:51:31 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:52:07 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:57:56 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 15:58:05 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 16:05:30 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 15
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(15): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 16:15:24 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:15:40 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:15:55 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:15:59 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:17:02 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:17:16 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:17:52 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:18:01 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:19:24 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:20:05 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:20:26 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:20:31 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:21:17 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:22:36 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:25:57 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:25:59 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:26:00 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:26:21 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:26:34 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:28:30 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:29:23 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:29:24 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:30:10 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/ci415/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 16:32:30 --> Call to undefined function App\Controllers\returndirect()
+#0 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-28 16:32:49 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 13
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(13): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 16:32:53 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 13
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(13): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 16:34:55 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::route() must be of the type string, null given, called in /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php on line 13
+#0 /homepages/36/d117019790/htdocs/ci415/app/Controllers/Home.php(13): CodeIgniter\HTTP\RedirectResponse->route(NULL)
+#1 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /homepages/36/d117019790/htdocs/ci415/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/ci415/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

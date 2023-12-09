@@ -1,0 +1,63 @@
+CRITICAL - 2022-02-25 14:25:13 --> Trying to get property 'fname' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(363): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 363, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Member_model.php(152): App\Models\Staff_model->get_mem('5326')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(30): App\Models\Member_model->search('does')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->search()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 14:25:57 --> Trying to get property 'fname' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(363): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 363, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Member_model.php(152): App\Models\Staff_model->get_mem('5326')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(30): App\Models\Member_model->search('does')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->search()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 14:35:05 --> Trying to get property 'fname' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(363): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 363, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Member_model.php(152): App\Models\Staff_model->get_mem('5326')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(30): App\Models\Member_model->search('does')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->search()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 14:43:13 --> Trying to get property 'fname' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 365, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Member_model.php(152): App\Models\Staff_model->get_mem('5326')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(30): App\Models\Member_model->search('does')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->search()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 14:50:07 --> Trying to get property 'fname' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 365, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Member_model.php(152): App\Models\Staff_model->get_mem('5326')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(30): App\Models\Member_model->search('does')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->search()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 14:51:30 --> Trying to get property 'lname' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 365, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Member_model.php(152): App\Models\Staff_model->get_mem('5326')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(30): App\Models\Member_model->search('does')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->search()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 14:54:02 --> Trying to get property 'fname' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(363): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 363, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Member_model.php(152): App\Models\Staff_model->get_mem('5326')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(30): App\Models\Member_model->search('does')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->search()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

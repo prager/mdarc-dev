@@ -1,0 +1,113 @@
+CRITICAL - 2022-02-21 16:34:29 --> Undefined index: user
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 534, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_faq()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-21 16:38:21 --> Call to undefined method App\Controllers\Master::getPost()
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_faq()
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-21 16:38:24 --> Call to undefined method App\Controllers\Master::getPost()
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_faq()
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-21 16:39:01 --> Column 'theq' cannot be null
+CRITICAL - 2022-02-21 16:39:01 --> Column 'theq' cannot be null
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(1113): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(545): App\Models\Staff_model->edit_faq(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_faq()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-21 16:39:12 --> Column 'theq' cannot be null
+CRITICAL - 2022-02-21 16:39:12 --> Column 'theq' cannot be null
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(1113): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(545): App\Models\Staff_model->edit_faq(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_faq()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-21 16:39:34 --> Column 'theq' cannot be null
+CRITICAL - 2022-02-21 16:39:34 --> Column 'theq' cannot be null
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(1113): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(545): App\Models\Staff_model->edit_faq(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_faq()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-21 17:29:06 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-21 18:01:45 --> Undefined variable: msg
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/faqs_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 9, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/faqs_vie...', Array, true)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(550): view('master/faqs_vie...')
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_faq()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-21 18:07:10 --> Trying to get property 'thea' of non-object
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/faqs_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/homepages/36/d...', 45, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/faqs_vie...', Array, true)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(520): view('master/faqs_vie...', Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->master_faqs()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-21 20:50:48 --> syntax error, unexpected '{'
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include()
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/faqs_vie...', Array, true)
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(519): view('master/faqs_vie...', Array)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->master_faqs()
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-21 21:20:54 --> Column 'theq' cannot be null
+CRITICAL - 2022-02-21 21:20:54 --> Column 'theq' cannot be null
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(1115): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(540): App\Models\Staff_model->edit_faq(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_faq()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,74 @@
+ERROR - 2022-04-10 15:22:16 --> Table 'dbs4171223.old_mems_2020' doesn't exist
+CRITICAL - 2022-04-10 15:22:16 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(518): App\Models\Staff_model->check_dups(Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(182): App\Models\Staff_model->edit_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-10 15:22:33 --> Table 'dbs4171223.old_mems_2020' doesn't exist
+CRITICAL - 2022-04-10 15:22:33 --> Call to a member function getResult() on bool
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(518): App\Models\Staff_model->check_dups(Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(182): App\Models\Staff_model->edit_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-10 15:24:24 --> Table 'dbs4171223.old_mems_2020' doesn't exist
+CRITICAL - 2022-04-10 15:24:24 --> Table 'dbs4171223.old_mems_2020' doesn't exist
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(541): CodeIgniter\Database\BaseBuilder->get()
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(518): App\Models\Staff_model->check_dups(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(182): App\Models\Staff_model->edit_mem(Array)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-10 15:50:49 --> Table 'dbs4171223.old_mems_2020' doesn't exist
+CRITICAL - 2022-04-10 15:50:49 --> Table 'dbs4171223.old_mems_2020' doesn't exist
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(541): CodeIgniter\Database\BaseBuilder->get()
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(518): App\Models\Staff_model->check_dups(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(182): App\Models\Staff_model->edit_mem(Array)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-10 15:52:00 --> Table 'dbs4171223.old_mems_2020' doesn't exist
+CRITICAL - 2022-04-10 15:52:00 --> Table 'dbs4171223.old_mems_2020' doesn't exist
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(541): CodeIgniter\Database\BaseBuilder->get()
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(518): App\Models\Staff_model->check_dups(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(182): App\Models\Staff_model->edit_mem(Array)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-10 18:02:24 --> Table 'dbs4171223.old_mems_2020' doesn't exist
+CRITICAL - 2022-04-10 18:02:24 --> Table 'dbs4171223.old_mems_2020' doesn't exist
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(541): CodeIgniter\Database\BaseBuilder->get()
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(518): App\Models\Staff_model->check_dups(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(182): App\Models\Staff_model->edit_mem(Array)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->edit_mem()
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

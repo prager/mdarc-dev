@@ -1,0 +1,32 @@
+CRITICAL - 2022-02-19 13:57:11 --> syntax error, unexpected '2021' (T_LNUMBER), expecting ')'
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Staf...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Staf...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/BaseController.php(54): spl_autoload_call('App\\Models\\Staf...')
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-19 13:57:55 --> Unknown column 'hard_news' in 'where clause'
+CRITICAL - 2022-02-19 13:57:55 --> Unknown column 'hard_news' in 'where clause'
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(1103): CodeIgniter\Database\BaseBuilder->get()
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(208): App\Models\Staff_model->get_carrier()
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(74): App\Models\Staff_model->get_mems(Array)
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-19 13:58:29 --> Cannot use object of type stdClass as array
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Staff_model.php(208): App\Models\Staff_model->get_carrier()
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(74): App\Models\Staff_model->get_mems(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,13 @@
+ERROR - 2022-01-07 00:00:27 --> Unknown column 'id_user_type' in 'field list'
+CRITICAL - 2022-01-07 00:00:27 --> Unknown column 'id_user_type' in 'field list'
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `tMember...', 0)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tMember...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tMember...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tMember...', Array, false)
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/app/Models/Master_model.php(139): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(108): App\Models\Master_model->load_admin(Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->load_admin()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

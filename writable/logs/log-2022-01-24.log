@@ -1,0 +1,120 @@
+CRITICAL - 2022-01-24 00:16:16 --> syntax error, unexpected ';'
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-24 00:32:32 --> syntax error, unexpected '$flag_call' (T_VARIABLE), expecting ';' or ','
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-24 00:37:11 --> syntax error, unexpected ';'
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-24 00:42:55 --> syntax error, unexpected '||' (T_BOOLEAN_OR)
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-24 00:49:57 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/homepages/36/d...', 379, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(379): count('')
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(422): App\Models\Member_model->check_second_dup(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(192): App\Models\Member_model->edit_fam_mem(Array)
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-24 00:53:44 --> syntax error, unexpected '$retarr' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-24 22:55:59 --> syntax error, unexpected ':'
+#0 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/homepages/36/d...')
+#1 /homepages/36/d117019790/htdocs/mdarc-2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Memb...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Memb...')
+#3 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\Memb...')
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-24 23:19:18 --> Undefined index: lic_stat
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 138, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(98): App\Models\Member_model->update_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->update_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-24 23:20:43 --> Undefined index: lic_stat
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 138, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(98): App\Models\Member_model->update_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->update_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-24 23:23:44 --> Undefined index: callsign
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 112, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(98): App\Models\Member_model->update_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->update_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-24 23:24:24 --> Undefined index: callsign
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/homepages/36/d...', 112, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(98): App\Models\Member_model->update_mem(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->update_mem()
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-24 23:39:43 --> Undefined variable: flag
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(566): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 566, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(111): App\Models\Member_model->do_callsign(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(98): App\Models\Member_model->update_mem(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->update_mem()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-24 23:49:32 --> Undefined offset: 0
+#0 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(410): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/homepages/36/d...', 410, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-2/app/Models/Member_model.php(445): App\Models\Member_model->check_second_dup(Array)
+#2 /homepages/36/d117019790/htdocs/mdarc-2/app/Controllers/Member.php(192): App\Models\Member_model->edit_fam_mem(Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(824): App\Controllers\Member->edit_fam_mem()
+#4 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#5 /homepages/36/d117019790/htdocs/mdarc-2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

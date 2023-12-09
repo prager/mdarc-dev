@@ -1,0 +1,56 @@
+CRITICAL - 2022-01-11 00:38:10 --> Trying to access array offset on value of type null
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/homepages/36/d...', 158, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Member.php(12): App\Controllers\Member->check_mem()
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Member->index()
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-11 22:54:48 --> Undefined variable: member_types
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/modal_fams.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 71, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/members_view.php(62): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(32): view('master/members_...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-11 22:58:21 --> Illegal string offset 'id'
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/modal_fams.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/homepages/36/d...', 72, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/members_view.php(62): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(32): view('master/members_...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-11 23:22:11 --> Undefined variable: member_types
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/modal_fams.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/homepages/36/d...', 163, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/members_view.php(62): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(32): view('master/members_...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-11 23:22:59 --> Illegal string offset 'id'
+#0 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/modal_fams.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/homepages/36/d...', 164, Array)
+#1 /homepages/36/d117019790/htdocs/mdarc-dev/app/Views/master/members_view.php(62): include('/homepages/36/d...')
+#2 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(214): include('/homepages/36/d...')
+#3 /homepages/36/d117019790/htdocs/mdarc-dev/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /homepages/36/d117019790/htdocs/mdarc-dev/system/Common.php(1097): CodeIgniter\View\View->render('master/members_...', Array, true)
+#5 /homepages/36/d117019790/htdocs/mdarc-dev/app/Controllers/Master.php(32): view('master/members_...', Array)
+#6 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(824): App\Controllers\Master->show_members()
+#7 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 /homepages/36/d117019790/htdocs/mdarc-dev/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /homepages/36/d117019790/htdocs/mdarc-dev/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

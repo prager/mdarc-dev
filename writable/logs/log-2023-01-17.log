@@ -1,0 +1,9 @@
+CRITICAL - 2023-01-17 08:39:11 --> Invalid file: public/reset_pass_view.php
+#0 /homepages/36/d117019790/htdocs/mdarc-7/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/reset_pa...')
+#1 /homepages/36/d117019790/htdocs/mdarc-7/system/Common.php(1097): CodeIgniter\View\View->render('public/reset_pa...', Array, true)
+#2 /homepages/36/d117019790/htdocs/mdarc-7/app/Controllers/Home.php(209): view('public/reset_pa...', Array)
+#3 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(824): App\Controllers\Home->reset_password()
+#4 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /homepages/36/d117019790/htdocs/mdarc-7/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /homepages/36/d117019790/htdocs/mdarc-7/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
