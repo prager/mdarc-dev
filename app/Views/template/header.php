@@ -13,25 +13,7 @@
   <title>MDARC Membership</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://www.google.com/recaptcha/api.js?render=<?= getenv('GOOGLE_RECAPTCHAV3_SITEKEY') ?>"></script>
-  <!-- Include script -->
-  <!-- <script type="text/javascript">
-
-  function onSubmit(e) {
-      e.preventDefault();
-      grecaptcha.ready(function() {
-          grecaptcha.execute("<?= getenv('GOOGLE_RECAPTCHAV3_SITEKEY') ?>", {action: 'submit'}).then(function(token) {
-
-                // Store recaptcha response
-                document.getElementById("recaptcha_response").value = token;
-
-                // Submit form
-                document.getElementById("contactForm").submit();
-
-          });
-      });
-  }
-
-</script> -->
+  
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-light navbar-light py-2 fixed-top">
