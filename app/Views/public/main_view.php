@@ -8,18 +8,34 @@
         </div>
       </div>
     <?php }?>
-        <div class="d-sm-flex align-items-center justify-content-between pt-5 pb-3">
-            <div>
-                <h1>MDARC <span class="text-warning">Membership Portal</span> </h1>
-                <p class="my-4">
-                  <span class="fw-bold">Field Day 2022</span> was held during the weekend of 25-26 June. More info <a href="http://www.arrl.org/field-day" target="_blank" class="text-decoration-none">here</a>.</p>
-                <p class="my-4">This website is intended for MDARC (<a href="http://mdarc.org" target="_blank" class="text-decoration-none">Mount Diablo Amateur Radio Club</a>) members to check on their membership status and later will provide payment gateway, among other additional features. More on <a href="<?php echo base_url() . '/index.php/faqs'; ?>" class="text-decoration-none">FAQ page</a>. In case anyone would like to participate in the portal development, make sure you are a registered user and then let the webmaster know via the <a href="<?php echo base_url(). '/index.php/contact'?>" class="text-decoration-none">Contact Page</a>.
-                </p>
-                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login"> User Login </button>
+    <div class="d-sm-flex align-items-center justify-content-between pt-5 pb-1">
+      <div class="col">
+        <h1>MDARC <span class="text-warning">Membership Portal</span> </h1>
+        <p class="mt-2"><small><span class="fw-bold">This is a Membership Portal for MDARC members.</span> For more info click <a href="<?php echo base_url(); ?>/index.php/faqs" class="text-decoration-none">here</a></small></p>
+          <form action="<?php echo base_url() . '/index.php/login' ?>" method="post">
+            <div class="col-lg-6 mb-3">
+                <label for="user" class="col-form-label">
+                    Username
+                </label>
+                <input type="text" class="form-control" id="user" name="user" placeholder="Enter Username"/>
             </div>
-            <img class="img-fluid w-25 d-none d-sm-block" src="/img/mdarc-logo.png" alt="">
-        </div>
+            <div class="col-lg-6 mb-4">
+                <label for="pass" class="col-form-label">
+                    Password
+                </label>
+                <input type="password" class="form-control" id="pass" name="pass" placeholder="Enter Password"/>
+            </div>
+            <div class="col-lg-6 mb-3">
+              <button type="submit" class="btn btn-primary"> Member Login </button>
+              <p><small>Lost username and/or password? Click <a href="#" data-bs-toggle="modal" class="text-decoration-none" data-bs-target="#reset">here</a>
+            </div>
+          </form>
+      </div>
+      <div class="col">
+      <img class="img-fluid d-none d-sm-block float-end" src="/img/mdarc-logo.png" alt="">
+      </div>
     </div>
+  </div>
 </section>
 
 <!--Signup for user access-->
@@ -38,30 +54,9 @@
       </form>
     </div>
 </section>
-
-<!--Learn Sections-->
-<section id="learn" class="p-5">
+<section>
     <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-lg">
-                <img src="/img/collaborate.svg" class="img-fluid w-75 d-none d-sm-block" alt="">
-            </div>
-            <div class="col-lg">
-                <h2>Digital Review Subcommittee</h2>
-                <p class="lead">
-                    MDARC established new <span class="text-decoration-underline text-success">Digital Media Review Team</span> for its websites development, social media interactions, etc.
-                </p>
-                <p>
-                    In addition to the work on Membership portal, the development will include websites for all the MDARC activities including Pacificon, public events, license testing and monthly meetings with lectures on many ham radio topics. And that is not all by far. Learn more by accessing the <a href="<?php echo base_url() . '/index.php/faqs'; ?>" class="text-decoration-none">FAQs</a> and some technical details by clicking on this <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#tech">About</a> link.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="bg-light">
-    <div class="container">
-        <div class="row align-items-center justify-content-between">
+        <div class="row align-items-center justify-content-between py-3">
           <div class="col-lg-6">
             <h2>Mount Diablo Amateur Radio Club</h2>
                 <p class="lead">

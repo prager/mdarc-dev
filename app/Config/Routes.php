@@ -164,6 +164,7 @@ $routes->add('new-member', 'Home::welcome_new');
 $routes->add('public-renew', 'Home::public_renew');
 $routes->add('public-renewdon', 'Home::public_renewdon');
 $routes->add('donate', 'Home::donate');
+$routes->add('terms', 'Home::terms');
 
 /*
  * --------------------------------------------------------------------

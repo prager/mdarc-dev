@@ -15,6 +15,10 @@ class Home extends BaseController {
 		echo view('template/footer');
   }
 
+  public function terms() {
+	echo view('public/terms');
+  }
+
   public function contact() {
     if(!($this->login_mod->is_logged())) {
       echo view('template/header_contact');
