@@ -12,12 +12,11 @@
   <link rel="shortcut icon" href="/img/mdarc-icon.ico" type="image/x-icon">
   <title>MDARC Membership</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://www.google.com/recaptcha/api.js?render=<?= getenv('GOOGLE_RECAPTCHAV3_SITEKEY') ?>"></script>
-  
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 16px;">
+<nav class="navbar navbar-expand-lg bg-light navbar-light py-2 fixed-top">
   <div class="container">
+      <a href="<?php echo base_url(); ?>" class="navbar-brand"><img src="/img/mdarc-avatar.jpg" alt="Logo" style="width:40px;" class="rounded-pill"> MDARC Members Portal</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,9 +26,6 @@
                   <a href="<?php echo base_url(); ?>" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                  <a href="https://pay-v1b.jlkconsulting.info/index.php/mdarc" class="nav-link" target="_blank">Pay Membership Dues</a>
-              </li>
-              <li class="nav-item">
                   <a href="<?php echo base_url() . '/index.php/contact'; ?>" class="nav-link">Contact</a>
               </li>
               <li class="nav-item dropdown">
@@ -37,10 +33,9 @@
                   About
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="helpMenu">
-                  <li class="nav-link"><a ><a href="<?php echo base_url() . '/index.php/faqs'; ?>" class="dropdown-item"> &nbsp; FAQs</a></li>
+                  <li><a class="dropdown-item"><a href="<?php echo base_url() . '/index.php/faqs'; ?>" class="nav-link"> &nbsp; FAQs</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li class="nav-link"><a href="#" data-bs-toggle="modal" data-bs-target="#tech" class="dropdown-item"> &nbsp; About</a></li>                  
-                  <li><hr class="dropdown-divider"></li><li class="nav-link"><a ><a href="<?php echo base_url() . '/index.php/terms'; ?>" class="dropdown-item"> &nbsp; Terms of Service</a></li>
+                  <li><a class="dropdown-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#tech"> &nbsp; About</a></li>
                 </ul>
               </li>
           </ul>

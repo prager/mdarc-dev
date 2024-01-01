@@ -31,12 +31,7 @@ class Home extends BaseController {
   }
 
   public function faqs() {
-    if(!($this->login_mod->is_logged())) {
-      echo view('template/header');
-    }
-    else {
-      echo view('template/header_' . $this->login_mod->get_cur_user()['controller']);
-    }
+	echo view('template/header_light');
     $data = $this->staff_mod->get_faqs();
     echo view('public/faqs_view', $data);
     echo view('template/footer');

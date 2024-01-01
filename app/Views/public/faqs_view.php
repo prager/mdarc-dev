@@ -10,7 +10,8 @@
     <?php if($faq['id_user_type'] != 3) { ?>
       <div class="row pt-2">
         <div class="col-lg-9 offset-lg-1">
-          <p class="lead fw-bold"><?php echo $faq['theq']; ?></p>
+          <p class="lead fw-bold">
+            <?php echo $faq['theq']; ?></p>
           <p><?php echo $faq['thea']; ?></p>
         </div>
       </div>

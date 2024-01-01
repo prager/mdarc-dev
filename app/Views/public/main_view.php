@@ -1,14 +1,14 @@
 <!-- Showcase -->
-<section class="bg-light text-dark p-4 text-center text-sm-start">
+<section class="bg-light text-dark text-center text-sm-start">
     <div class="container">
       <?php if(strlen($msg) > 0) {?>
-      <div class="row pt-5">
+      <div class="row">
         <div class="col">
           <?php echo $msg; ?>
         </div>
       </div>
     <?php }?>
-    <div class="d-sm-flex align-items-center justify-content-between pt-5 pb-1">
+    <div class="d-sm-flex align-items-center justify-content-between pb-1">
       <div class="col">
         <h1>MDARC <span class="text-warning">Membership Portal</span> </h1>
         <p class="mt-2"><small><span class="fw-bold">This is a Membership Portal for MDARC members.</span> For more info click <a href="<?php echo base_url(); ?>/index.php/faqs" class="text-decoration-none">here</a></small></p>
