@@ -6,14 +6,18 @@ class Admin extends BaseController {
 	var $username;
 
 /**
-* Controller for the webmaster
+* Controller for the administrator
 */
 	public function index() {
+	
+// check the administrator's credentials then load the appropriate header and main view		
 		if($this->check_admin()) {
 				echo view('template/header_admin.php');
 				echo view('admin/admin_view.php');
 	    }
 	    else {
+
+// if the credentials are wrong, then run logout() routine to clear session data
 			$this->login_mod->logout();
 			echo view('template/header');
 	        $data['title'] = 'Login Error';
@@ -27,7 +31,7 @@ class Admin extends BaseController {
         if($this->check_admin()) {
             echo view('template/header_admin.php');
             $search_str = $this->request->getPost('search');
-            $data = $this->mem_mod->search($search_str);
+            $data = $this->master_mod->search($search_str);
             $data['states'] = $this->data_mod->get_states_array();
             $data['lic'] = $this->data_mod->get_lic();
             $data['mem_types'] = $this->staff_mod->get_mem_types();

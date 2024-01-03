@@ -152,7 +152,7 @@ class Member_model extends Model {
         $res = $builder->get()->getResult();
         foreach ($res as $key => $mem) {
           $mem_arr = $staff_mod->get_mem($mem->id_members);
-          array_push($retarr['mems'], $mem_arr);
+          if(strtolower($mem->ok_mem_dir) == "true") array_push($retarr['mems'], $mem_arr);
         }
       }
     }

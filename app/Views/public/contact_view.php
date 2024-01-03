@@ -1,18 +1,8 @@
 <section id="learn" class="p-5">
   <div class="container">
 
-  <!-- <?php $validation = \Config\Services::validation(); ?> -->
     <form action="/index.php/send-contact" method="post" id="contactForm" onSubmit="onSubmit(event)">
     
-    <!-- <?= csrf_field(); ?>
-
-    <?php if( $validation->getError('recaptcha_response') ) {?>
-
-        <div class="alert alert-danger">
-              <?= $validation->getError('recaptcha_response'); ?>
-        </div>
-    <?php }?> -->
-
     <div class="row pt-5">
       <div class="col-lg-8 offset-lg-2">
         <h3>Send Us a Message</h3>

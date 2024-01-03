@@ -27,7 +27,7 @@ class Master extends BaseController {
 		if($this->check_master()) {
 	  		echo view('template/header_master.php');
 			$search_str = $this->request->getPost('search');
-			$data = $this->mem_mod->search($search_str);
+			$data = $this->master_mod->search($search_str);
 			$data['states'] = $this->data_mod->get_states_array();
 			$data['lic'] = $this->data_mod->get_lic();
 			$data['mem_types'] = $this->staff_mod->get_mem_types();

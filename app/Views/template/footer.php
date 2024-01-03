@@ -4,7 +4,7 @@
                <p class="lead">Copyright &copy; <a href="http://mdarc.org" class="text-decoration-none" target="_blank"><span class="link-warning">1947 - <script type="text/javascript">
         var today = new Date();
         document.write(today.getFullYear() );
-     </script> MDARC</span></a> | <a href="<?php echo base_url(); ?>/index.php/terms" class="text-decoration-none" target="_blank"><small>Terms of Service</small></a></p>
+     </script> MDARC</span></a> | <small><a href="<?php echo base_url(); ?>/index.php/terms" class="text-decoration-none" target="_blank">T of S</a> |  <a href="https://www.mdarc.org/about-us/official-documents/privacy-policy" class="text-decoration-none" target="_blank">Privacy Policy</a></small></p>
                <a href="#" class="position-absolute bottom-0 end-0 p-5">
                    <i class="bi bi-arrow-up-circle h1"></i>
                </a>

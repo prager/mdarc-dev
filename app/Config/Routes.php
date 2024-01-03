@@ -46,6 +46,7 @@ $routes->add('do-update', 'Member::do_update');
 $routes->add('master-search', 'Master::search');
 $routes->add('admin-search', 'Admin::search');
 $routes->add('staff-search', 'Staff::search');
+$routes->add('member-search', 'Member::search');
 $routes->add('send-contact', 'Home::send_contact');
 $routes->add('staff', 'Staff::index');
 $routes->add('member', 'Member::index');

@@ -50,7 +50,7 @@ class Member extends BaseController {
 	}
 
 	public function renew() {
-		echo view('template/header');
+		echo view('template/header_light');
 		$new_usr = $this->mem_mod->get_member_by_email(strtolower($this->request->getPost('email')));
 		if($new_usr['flag']) {
 			$data = array();
@@ -95,7 +95,7 @@ class Member extends BaseController {
 
 	public function add_member() {
 		$email = $this->uri->getSegment(2);
-		echo view('template/header');
+		echo view('template/header_light');
 		$data['states'] = $this->data_mod->get_states_array();
 		$data['lic'] = $this->data_mod->get_lic();
 		$data['mem_types'] = $this->master_mod->get_member_types();
@@ -121,8 +121,8 @@ class Member extends BaseController {
 		$param['h_phone'] = $this->request->getPost('h_phone');
 		$param['comment'] = trim($this->request->getPost('comment'));
 		$param['id_mem_types'] = $this->request->getPost('mem_types');
-		$param['paym_date'] = 864001;
-		$param['cur_year'] = date('Y', 86401);
+		$param['paym_date'] = time();
+		$param['cur_year'] = date('Y', time());
 		$param['timestamp'] = time();
 		$strCarr = $this->request->getPost('carrier');
 		$email = $this->request->getPost('email');
@@ -282,6 +282,25 @@ class Member extends BaseController {
 		exit;
 	}
 
+	public function search() {
+		if($this->check_mem()) {
+	  	echo view('template/header_staff.php');
+			$search_str = $this->request->getPost('search');
+			$data = $this->mem_mod->search($search_str);
+			$data['states'] = $this->data_mod->get_states_array();
+			$data['lic'] = $this->data_mod->get_lic();
+			$data['mem_types'] = $this->staff_mod->get_mem_types();
+			echo view('staff/search_res_view.php', $data);
+	    }
+		else {
+			echo view('template/header');
+			$this->login_mod->logout();
+			$data['title'] = 'Login Error';
+			$data['msg'] = 'There was an error while checking your credentials.<br><br>';
+			echo view('status/status_view.php', $data);
+		}
+		echo view('template/footer.php');
+	}
 
 /**
 * Loads personal data into the form and displays it

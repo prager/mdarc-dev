@@ -41,6 +41,37 @@ public function put_user_types() {
     file_put_contents('files/users.csv', $users_str);
     $db->close();
   }
+  public function search($search) {
+    $retarr['mems'] = array();
+    $retarr['msg'] = NULL;
+    $staff_mod = new \App\Models\Staff_model();
+    if(strlen($search) > 0) {
+      $db      = \Config\Database::connect();
+      $builder = $db->table('tMembers');
+      $builder->like('lname', $search);
+      $builder->orLike('fname', $search);
+      $builder->orLike('callsign', $search);
+      $builder->orLike('cur_year', $search);
+      $builder->orLike('email', $search);
+      $builder->orLike('id_members', strval($search));
+      $cnt = $builder->countAllResults();
+      if($cnt > 0) {
+        $builder->resetQuery();
+        $builder->like('lname', $search);
+        $builder->orLike('fname', $search);
+        $builder->orLike('callsign', $search);
+        $builder->orLike('cur_year', $search);
+        $builder->orLike('email', $search);
+        $builder->orLike('id_members', strval($search));
+        $res = $builder->get()->getResult();
+        foreach ($res as $key => $mem) {
+          $mem_arr = $staff_mod->get_mem($mem->id_members);
+          array_push($retarr['mems'], $mem_arr);
+        }
+      }
+    }
+    return $retarr;
+  }
 
   /**
   * Gets data for displaying master_view

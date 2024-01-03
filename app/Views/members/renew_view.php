@@ -15,7 +15,7 @@
       </div>
     <?php }?>
 
-    <div class="row mt-3">
+    <div class="row">
         <div class="col-md offset-md-1">
         
             <div class="accordion accordion-flush" id="accordionFlushExample">

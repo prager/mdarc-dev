@@ -26,19 +26,19 @@ class Staff extends BaseController {
 		if($this->check_staff()) {
 	  	echo view('template/header_staff.php');
 			$search_str = $this->request->getPost('search');
-			$data = $this->mem_mod->search($search_str);
+			$data = $this->staff_mod->search($search_str);
 			$data['states'] = $this->data_mod->get_states_array();
 			$data['lic'] = $this->data_mod->get_lic();
 			$data['mem_types'] = $this->staff_mod->get_mem_types();
 			echo view('staff/search_res_view.php', $data);
-	   }
-    else {
-	  	echo view('template/header');
+	    }
+		else {
+			echo view('template/header');
 			$this->login_mod->logout();
-      $data['title'] = 'Login Error';
-      $data['msg'] = 'There was an error while checking your credentials.<br><br>';
-      echo view('status/status_view.php', $data);
-    }
+			$data['title'] = 'Login Error';
+			$data['msg'] = 'There was an error while checking your credentials.<br><br>';
+			echo view('status/status_view.php', $data);
+		}
 		echo view('template/footer.php');
 	}
 

@@ -58,26 +58,36 @@ class Login_model extends Model {
  * @param $data array with user ID and password
  */
 public function check_credentials($data) {
+
+// set the boolean return value to false and then reset to true if credentials are OK
   $retval = FALSE;
 
+// if there is no active session then restart it
   if (session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
     session_regenerate_id(FALSE);
   }
 
+ // connect to db and set the current table to users table 
   $db = \Config\Database::connect();
   $builder = $db->table('users');
   $builder->where('username', $data['user']);
+
+// get the user data from users table in a row
   $user = $builder->get()->getRow();
+
+// if the user filled his/her credentials then check them if correct via PHP built in function password_verify
   if(isset($data['user']) && isset($user->pass) && isset($user->username)) {
     if((password_verify($data['pass'], $user->pass)) && ($data['user'] == $user->username) && ($user->active == 1 && $user->authorized == 1)) {
+
+// if good to go then retrieve needed data from db and save the user data into session variable
       $usr_arr['user'] = $this->get_user_arr($user->id_user);
       $usr_arr['user']['session_id'] = session_id();
       $_SESSION['user'] = $usr_arr['user'];
       $_SESSION['id_user'] = $user->id_user;
       $_SESSION['logged'] = TRUE;
 
-  //role is legacy, but leaving it to be
+//role is legacy, but leaving it to be
       $_SESSION['role'] = $user->role;
       $_SESSION['type_code'] = $usr_arr['user']['type_code'];
       $_SESSION['controller'] = $usr_arr['user']['controller'];
@@ -88,7 +98,6 @@ public function check_credentials($data) {
   }
   $db->close();
   return $retval;
-  //return TRUE;
 }
 
 /*private function check_auth($username) {

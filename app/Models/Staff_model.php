@@ -560,6 +560,37 @@ class Staff_model extends Model {
 
     return $retval;
   }
+  public function search($search) {
+    $retarr['mems'] = array();
+    $retarr['msg'] = NULL;
+    $staff_mod = new \App\Models\Staff_model();
+    if(strlen($search) > 0) {
+      $db      = \Config\Database::connect();
+      $builder = $db->table('tMembers');
+      $builder->like('lname', $search);
+      $builder->orLike('fname', $search);
+      $builder->orLike('callsign', $search);
+      $builder->orLike('cur_year', $search);
+      $builder->orLike('email', $search);
+      $builder->orLike('id_members', strval($search));
+      $cnt = $builder->countAllResults();
+      if($cnt > 0) {
+        $builder->resetQuery();
+        $builder->like('lname', $search);
+        $builder->orLike('fname', $search);
+        $builder->orLike('callsign', $search);
+        $builder->orLike('cur_year', $search);
+        $builder->orLike('email', $search);
+        $builder->orLike('id_members', strval($search));
+        $res = $builder->get()->getResult();
+        foreach ($res as $key => $mem) {
+          $mem_arr = $staff_mod->get_mem($mem->id_members);
+          array_push($retarr['mems'], $mem_arr);
+        }
+      }
+    }
+    return $retarr;
+  }
 
 /**
 * Check for duplicate members within 5 years
@@ -850,7 +881,7 @@ class Staff_model extends Model {
     $builder->where('parent_primary', $id);
 
 // we must also purge the family members for the primary member
-    $res = $builder->getResult();
+    $res = $builder->get()->getResult();
     foreach($res as $child) {
       $builder->resetQuery();
       $builder->delete(['id_members' => $child->id_members]);

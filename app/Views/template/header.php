@@ -29,6 +29,18 @@
               <li class="nav-item">
                   <a href="https://pay-v1b.jlkconsulting.info/index.php/mdarc" class="nav-link" target="_blank">Pay Membership Dues</a>
               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="helpMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MDARC Memberships
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="helpMenu">
+                  <li class="nav-link"><a href="<?php echo base_url() . '/index.php/add-mem/new-member'; ?>" class="dropdown-item"> &nbsp; Join MDARC</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li class="nav-link"><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#renewMem"> &nbsp; Renew Membership</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li class="nav-link"><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#goDonate"> &nbsp; Donate to MDARC</a></li>
+                </ul>
+              </li>
               <li class="nav-item">
                   <a href="<?php echo base_url() . '/index.php/contact'; ?>" class="nav-link">Contact</a>
               </li>

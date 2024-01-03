@@ -4,14 +4,20 @@ namespace App\Controllers;
 
 class Home extends BaseController {
   public function index() {
+	// load public header first
 		echo view('template/header');
+
+	// if not logged in load main public page
 		if(!($this->login_mod->is_logged())) {
 			echo view('public/main_view', array('msg' => ''));
 		}
 		else {
-			echo 'controller: ' . $this->login_mod->get_cur_user()['controller'];
+	
+	// if logged in then redirect to a proper page according to user level (every level has its own controller)
 			return redirect()->route($this->login_mod->get_cur_user()['controller']);
 		}
+
+	// load footer - it is the same for every user level
 		echo view('template/footer');
   }
 
@@ -20,13 +26,21 @@ class Home extends BaseController {
   }
 
   public function contact() {
+
+// if not logged in load generic header for contact page
     if(!($this->login_mod->is_logged())) {
       echo view('template/header_contact');
     }
     else {
+	
+// if logged in then redirect to a proper page according to user level (every level has its own controller)
       echo view('template/header_' . $this->login_mod->get_cur_user()['controller']);
     }
+
+// load contact view with the form
     echo view('public/contact_view');
+
+// load footer - it is the same for every user level
     echo view('template/footer');
   }
 

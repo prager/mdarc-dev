@@ -41,6 +41,10 @@
               <li class="nav-item">
                   <a href="<?php echo base_url() . '/index.php/logout/'; ?>" class="nav-link"><i class="bi bi-box-arrow-up-right"></i> Logout </a>
               </li>
+              <form action="<?php echo base_url() . '/index.php/member-search'; ?>" method="post" class="d-flex px-3">
+                <input class="form-control me-4" type="search" name="search" placeholder="Search Members Database" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+              </form>
           </ul>
       </div>
   </div>
