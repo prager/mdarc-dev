@@ -229,7 +229,7 @@ class Staff_model extends Model {
   /**
   * Gets directory data
   */
-  public function get_dir_data() {
+  public function get_dir_data($cur_yr) {
     $mem_types = $this->get_mem_types();
     $db      = \Config\Database::connect();
     $builder = $db->table('tMembers');
@@ -264,11 +264,11 @@ class Staff_model extends Model {
           $elem['spouse_call'] = $member->spouse_call;
           $member->email == NULL ? $elem['email'] = 'N/A' : $elem['email'] = $member->email;
           $elem['ok_mem_dir'] = $member->ok_mem_dir;
-          $cur_yr = date('Y', time());
+          $date_from = strtotime(strval(intval($cur_yr-1)) . '-10-01');
+          $date_to = strtotime(strval($cur_yr) . '-12-31');
           $member->silent_date > 1 ? $elem['silent_date'] = date('Y-m-d', $member->silent_date) : $elem['silent_date'] = 'No Date';
           $elem['silent_year'] = $member->silent_year;
           $member->usr_type == 98 ? $elem['silent'] = TRUE : $elem['silent'] = FALSE;
-
     //Push all the current members including voting members (Spouse and Additional types)
           if(($member->cur_year >= $cur_yr  && $member->silent_date == 0 && strtolower($member->ok_mem_dir ?? '') == 'true')) {
             array_push($all_cur_members, $elem);

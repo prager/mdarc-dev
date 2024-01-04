@@ -9,30 +9,30 @@
       </div>
     <?php }?>
     <div class="d-sm-flex align-items-center justify-content-between pb-1">
-      <div class="col">
+      <div class="col-lg-6">
         <h1>MDARC <span class="text-warning">Membership Portal</span> </h1>
         <p class="mt-2"><small><span class="fw-bold">This is a Membership Portal for MDARC members.</span> For more info click <a href="<?php echo base_url(); ?>/index.php/faqs" class="text-decoration-none">here</a></small></p>
           <form action="<?php echo base_url() . '/index.php/login' ?>" method="post">
-            <div class="col-lg-6 mb-3">
+            <div class="col-lg-10 mb-3">
                 <label for="user" class="col-form-label">
                     Username
                 </label>
                 <input type="text" class="form-control" id="user" name="user" placeholder="Enter Username"/>
             </div>
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-10 mb-4">
                 <label for="pass" class="col-form-label">
                     Password
                 </label>
                 <input type="password" class="form-control" id="pass" name="pass" placeholder="Enter Password"/>
             </div>
-            <div class="col-lg-6 mb-3">
+            <div class="col-lg-10 mb-3">
               <button type="submit" class="btn btn-primary"> Member Login </button>
               <p><small>Lost username and/or password? Click <a href="#" data-bs-toggle="modal" class="text-decoration-none" data-bs-target="#reset">here</a>
             </div>
           </form>
       </div>
       <div class="col">
-      <img class="img-fluid d-none d-sm-block float-end" src="/img/mdarc-logo.png" alt="">
+      <img class="img-fluid d-none d-lg-block" src="/img/mdarc-logo.png" alt="">
       </div>
     </div>
   </div>

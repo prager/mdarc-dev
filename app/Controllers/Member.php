@@ -290,7 +290,7 @@ class Member extends BaseController {
 			$data['states'] = $this->data_mod->get_states_array();
 			$data['lic'] = $this->data_mod->get_lic();
 			$data['mem_types'] = $this->staff_mod->get_mem_types();
-			echo view('staff/search_res_view.php', $data);
+			echo view('members/search_res_view.php', $data);
 	    }
 		else {
 			echo view('template/header');
