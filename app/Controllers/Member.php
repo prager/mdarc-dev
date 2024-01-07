@@ -134,15 +134,20 @@ class Member extends BaseController {
 		$this->request->getPost('dir') == 'on' ? $param['hard_dir'] = 'TRUE' : $param['hard_dir'] = 'FALSE';
 		$this->request->getPost('mem_card') == 'on' ? $param['mem_card'] = 'TRUE' : $param['mem_card'] = 'FALSE';
 		$this->request->getPost('dir_ok') == 'on' ? $param['ok_mem_dir'] = 'TRUE' : $param['ok_mem_dir'] = 'FALSE';
+		if($this->request->getPost('howHeard') == 'arrlWeb') $param['comment'] = 'Heard about MDARC from ARRL website';
+		if($this->request->getPost('howHeard') == 'mdarcTest') $param['comment'] = 'Heard about MDARC at license testing at MDARC';
+		if($this->request->getPost('howHeard') == 'otherTest') $param['comment'] = 'Heard about MDARC at license testing at another club';
+		if($this->request->getPost('howHeard') == 'otherReason') $param['comment'] = 'Heard about MDARC somewhere else';
+		$param['comment'] .= ': ' . $this->request->getPost('txtOtherReason');
 
 		$this->uri->setSilent();
 		$param['id'] = $this->uri->getSegment(2);
 
 		if ($this->staff_mod->edit_mem($param)) {
 			$param['id_member'] = $this->mem_mod->get_last_mem()['id_members'];
-			$data['title'] = 'Member added!';
-			$data['msg'] = 'Member added no problem <br /><br />';
-			$data['msg'] .= 'ID member: ' . $param['id_member'];
+			//$data['title'] = 'Member added!';
+			//$data['msg'] = 'Member added no problem <br /><br />';
+			//$data['msg'] .= 'ID member: ' . $param['id_member'];
 			//echo view('status/status_view', $data);
 			$param['repStr'] = $this->request->getPost('repeater');
 			$param['mdarcStr'] = $this->request->getPost('mdarc_donation');
@@ -243,12 +248,13 @@ class Member extends BaseController {
 		}
 
 		if($param['carrStr'] == 'add_carrier') {
-			$carrAmount = 18;
+			$carrAmount = $this->mem_mod->get_carr_amnt();
+			//$carrAmount = 18;
 		}
 		else {
 			$carrAmount = 0;
 		}
-		// get random string for payment validation
+		//get random string for payment validation
 		$paym_data['val_string'] = bin2hex(openssl_random_pseudo_bytes(12));
 		$paym_data['id_member'] = $param['id_member'];
 		if( $rep_donation != 0) {
@@ -262,10 +268,11 @@ class Member extends BaseController {
 			$this->mem_mod->do_payment($paym_data);
 		}
 		if(strlen($param['mdarc_mem']) != 0) {
-			if($param['mdarc_mem'] == 'new_mem') $paym_data['id_payaction'] = 11;
+			if($param['mdarc_mem'] == 'new_mem') $paym_data['id_payaction'] = $this->mem_mod->get_new_mem_payaction();
 			if($param['mdarc_mem'] == 'renewal') $paym_data['id_payaction'] = 1;
 			if($param['mdarc_mem'] == 'public_renew') $paym_data['id_payaction'] = 12;
-			$paym_data['amount'] = 45; // must retrieve amount from payactions table
+			$paym_data['amount'] = $this->mem_mod->mem_paym_amnt($paym_data);
+			//$paym_data['amount'] = 45;
 			$this->mem_mod->do_payment($paym_data);
 			$locStr = "https://pay-v1.jlkconsulting.info/index.php/mdarc-payment/". $param['mdarc_mem'] . "/";
 		}

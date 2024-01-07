@@ -1,7 +1,7 @@
 <section id="learn" class="p-5">
   <div class="container">
     <!-- updated post -->
-    <form action="<?php echo base_url() . '/index.php/process-pub-mem'; ?>" method="post">
+    
     <div class="row mt-3">
         <div class="col-lg-8 mt-3 offset-lg-1">
             <h5>Join MDARC (Mount Diablo Amateur Radio Club) - public</h5>
@@ -45,19 +45,27 @@
         </div>
       </div>
     </div>
-    
+    <div class="row mt-3">
+      <div class="col-lg-10 offset-lg-1">
+        <small>Entries marked with <span style="color: red;">*</span> are required</small>
+      </div>
+    </div>
+    <form class="needs-validation" action="<?php echo base_url() . '/index.php/process-pub-mem'; ?>" method="post">
     <div class="row mt-3">
       <div class="col-lg-3 offset-lg-1">
-        <label for="fname">First Name</label>
-        <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
+          <label for="fname">First Name <span style="color: red;">*</span></label>
+          <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name" required>
+          <div class="invalid-feedback">
+            Please, enter First Name
+          </div>
       </div>
       <div class="col-lg-3">
-          <label for="lname">Last Name</label>
-          <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
+          <label for="lname">Last Name <span style="color: red;">*</span></label>
+          <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name" required>
       </div>
       <div class="col-lg-3">
-          <label for="callsign">Callsign (Enter SWL if no Callsign)</label>
-          <input type="text" class="form-control" id="callsign" name="callsign" placeholder="Callsign">
+          <label for="callsign">Callsign (Enter SWL if no Callsign) <span style="color: red;">*</span></label>
+          <input type="text" class="form-control" id="callsign" name="callsign" placeholder="Callsign" required>
       </div>
     </div>
     <div class="row mt-3">
@@ -102,8 +110,8 @@
         <input type="text" class="form-control" id="h_phone" name="h_phone" placeholder="Home Phone">
       </div>
       <div class="col-lg-3">
-        <label for="email">Email</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+        <label for="email">Email <span style="color: red;">*</span></label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
       </div>
     </div>
     <div class="row mt-3">
@@ -123,14 +131,14 @@
     </div>
     <div class="row mt-3">
       <div class="col-lg-6 offset-lg-1">
-        <label for="address">Street Address</label>
-        <input type="text" class="form-control" name="address">
+        <label for="address">Street Address <span style="color: red;">*</span></label>
+        <input type="text" class="form-control" name="address" required>
       </div>
     </div>
     <div class="row mt-3">
       <div class="col-lg-3 offset-lg-1">
-        <label for="city">City</label>
-        <input type="text" class="form-control" id="city" name="city" placeholder="City">
+        <label for="city">City <span style="color: red;">*</span></label>
+        <input type="text" class="form-control" id="city" name="city" placeholder="City" required>
       </div>
       <div class="col-lg-3">
         <label for="callsign">State</label>
@@ -150,7 +158,7 @@
       </div>
       <div class="col-lg-3">
         <label for="zip">Zip</label>
-        <input type="text" class="form-control" id="zip" name="zip" placeholder="Zip">
+        <input type="text" class="form-control" id="zip" name="zip" placeholder="Zip" required>
       </div>
     </div>
     <div class="row mt-3">
@@ -162,10 +170,40 @@
         </div>
       </div>
     </div>
-    <div class="row mt-3">
+    <div class="row my-3">
       <div class="col-lg-8 offset-lg-1">
           <hr>
-          <h5>Donations</h5>
+          <h5>How did you hear about MDARC?</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="howHeard" id="arrlWeb" value="arrlWeb">
+            <label class="form-check-label" for="arrlWeb">On ARRL website</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="howHeard" id="mdarcTest" value="mdarcTest">
+            <label class="form-check-label" for="mdarcTest">During MDARC's license testing</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="howHeard" id="otherTest" value="otherTest" value="otherTest">
+            <label class="form-check-label" for="otherTest">During other club's license testing</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="howHeard" id="otherReasons" value="otherReason" checked>
+            <label class="form-check-label" for="otherReasons">If not above, then how did you lear about MDARC? Please, describe below:</label>
+          </div>
+      </div>      
+    </div>
+    <div class="row mb-3">
+      <div class="col-lg-8 offset-lg-1">
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">How did you hear about MDARC other than above?</label>
+          <textarea class="form-control" name="txtOtherReason" id="txtOtherReason" rows="7"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-lg-10 offset-lg-1">
+          <hr>
+        <h5>Donations</h5>
       </div>
     </div>
     <div class="row mt-1">
@@ -190,6 +228,6 @@
         })
         </script>
     </div>
-  </form>
+    </form>
   </div>
 </section>

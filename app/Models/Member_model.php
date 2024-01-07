@@ -204,6 +204,31 @@ class Member_model extends Model {
     return $retval;
   }
 
+  public function get_carr_amnt() {
+    $db      = \Config\Database::connect();
+    $builder = $db->table('payactions');
+    $builder->where('id_payaction', 10);
+    $db->close();
+    return $builder->get()->getRow()->amount;
+    //return 18;
+  }
+  public function get_new_mem_payaction() {
+    $retval = 2;
+    if(intval(date('m', time())) > 9 || intval(date('m', time())) <= 12) {
+        $retval = 11;
+    }
+    return $retval;
+  }
+
+  public function mem_paym_amnt($param) {
+    $db      = \Config\Database::connect();
+    $builder = $db->table('payactions');
+    $builder->where('id_payaction', $param['id_payaction']);
+    $db->close();
+    return $builder->get()->getRow()->amount;
+    // return 45;
+  }
+
   public function update_mem($param) {
     $db      = \Config\Database::connect();
     $builder = $db->table('tMembers');

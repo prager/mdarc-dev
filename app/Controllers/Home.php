@@ -129,12 +129,12 @@ class Home extends BaseController {
   		echo view('public/register_view', $data);
   	}
   	else {
-  		$data['title'] = 'Error!';
+  		$data['title'] = 'Not MDARC Member!';
       if($new_usr['empty']) {
-        $data['msg'] = 'Please, enter your email.<br><br>';
+        $data['msg'] = 'Please, enter your MDARC email.<br><br>';
       }
       else {
-  			$data['msg'] = '<p class="text-danger">There was an error processing your data.</p> Most likely you either used a wrong email or you are not an MDARC member.<br><br>';
+  			$data['msg'] = '<p class="text-danger">You need to be MDARC member.</p> Your email is not listed in the MDARC database. Please, enter your MDARC email to register as a new user.<br><br>';
       }
   		echo view('status/status_view', $data);
   	}
