@@ -11,7 +11,7 @@
     <div class="d-sm-flex align-items-center justify-content-between pb-1">
       <div class="col-lg-6">
         <h1>MDARC <span class="text-warning">Memberships</span> - <a href="<?php echo base_url() . '/index.php/add-mem/new-member'; ?>" class="text-decoration-none">Join Us</a>  </h1>
-        <p class="mt-2"><small><span class="fw-bold">This is a Membership Portal for MDARC members.</span> For more info click <a href="<?php echo base_url(); ?>/index.php/faqs" class="text-decoration-none">here</a></small></p>
+        <p class="mt-xs-5"><small><span class="fw-bold">This is a Membership Portal for MDARC members.</span> For more info click <a href="<?php echo base_url(); ?>/index.php/faqs" class="text-decoration-none">here</a></small></p>
           <form action="<?php echo base_url() . '/index.php/login' ?>" method="post">
             <div class="col-lg-10 mb-3">
                 <label for="user" class="col-form-label">
