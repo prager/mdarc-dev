@@ -10,7 +10,7 @@
     <?php }?>
     <div class="d-sm-flex align-items-center justify-content-between pb-1">
       <div class="col-lg-6">
-        <h1>MDARC <span class="text-warning">Membership Portal</span> </h1>
+        <h1>MDARC <span class="text-warning">Memberships</span> - <a href="<?php echo base_url() . '/index.php/add-mem/new-member'; ?>" class="text-decoration-none">Join Us</a>  </h1>
         <p class="mt-2"><small><span class="fw-bold">This is a Membership Portal for MDARC members.</span> For more info click <a href="<?php echo base_url(); ?>/index.php/faqs" class="text-decoration-none">here</a></small></p>
           <form action="<?php echo base_url() . '/index.php/login' ?>" method="post">
             <div class="col-lg-10 mb-3">
@@ -32,7 +32,7 @@
           </form>
       </div>
       <div class="col">
-      <img class="img-fluid d-none d-lg-block" src="/img/mdarc-logo.png" alt="">
+        <img class="img-fluid d-none d-lg-block" src="/img/mdarc-logo.png" alt="">
       </div>
     </div>
   </div>
@@ -79,7 +79,7 @@
             					}
             					</script>
             					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeOLEmQMnt6O2kEXJ7llYr1xw2y-BEm6M&callback=myMap"></script>
-              </div<!-- SB Forms JS from https://startbootstrap.com/guides/bootstrap-form-setup-guide-->
+              </div>
           <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
           </div>
     </div>

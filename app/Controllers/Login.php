@@ -9,7 +9,7 @@ class Login extends BaseController {
 	 if($this->validate_credentials()) {
 		$data['title'] = 'You Are Logged In!';
 		$data['msg'] = 'Click below to continue on your main page:';
-		echo view('template/header_member');
+		echo view('template/header_light');
 		echo view('status/status_view', $data);
 		echo view('template/footer');
 	  }
