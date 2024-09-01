@@ -67,20 +67,19 @@
                 </p>
           </div>
           <div class="col-lg-6">
-            <div id="map">
-            				<div id="googleMap" style="height: 310px; width: 100%; float: right">&nbsp;</div>
-            					<script>
-            					function myMap() {
-              					var myCenter = new google.maps.LatLng(37.934490, -122.068848);
-              					var mapProp = {center:myCenter, zoom:8};
-              					var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-              					var marker = new google.maps.Marker({position:myCenter});
-              					marker.setMap(map);
-            					}
-            					</script>
-            					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeOLEmQMnt6O2kEXJ7llYr1xw2y-BEm6M&callback=myMap"></script>
-              </div>
-          <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+          <gmp-map
+            center="37.943574,-122.076102"
+            zoom="10"
+            map-id="DEMO_MAP_ID"
+            style="height: 300px">
+
+            <gmp-advanced-marker
+              position="37.943574,-122.076102"
+              title="Pleasant Hill, CA"
+            ></gmp-advanced-marker>
+          </gmp-map>
+          <?php $src_str = "https://maps.googleapis.com/maps/api/js?key=AIzaSyB_SZN9vBFgQg_-adkGBNvhZ4zbUMc3J7o&libraries=maps,marker&v=beta"; ?>
+          <script src="<?php echo $src_str; ?>" defer></script>
           </div>
     </div>
 </section>

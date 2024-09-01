@@ -88,8 +88,10 @@
               <option selected value="<?php echo $user['id_user_type']; ?>"><?php echo $usr_types[$user['id_user_type']]; ?></option>
               <?php
                 //unset($usr_types[$user['id_user_type']]);
-                foreach ($usr_types as $key => $type) { ?>
+                foreach ($usr_types as $key => $type) { 
+                  if($type == "Staff Member" || $type == "MDARC Member" || $type == "Admin") {?>                
                   <option value="<?php echo $key; ?>"><?php echo $type; ?></option>
+                  <?php } ?>
                 <?php }?>
             </select>
           </div>

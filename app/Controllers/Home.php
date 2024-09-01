@@ -9,7 +9,7 @@ class Home extends BaseController {
 
 	// if not logged in load main public page
 		if(!($this->login_mod->is_logged())) {
-			echo view('public/main_view', array('msg' => ''));
+			echo view('public/main_view', array('msg' => '', 'map_key' => getenv('GOOGLE_MAP_API_KEY')));
 		}
 		else {
 	
