@@ -29,7 +29,7 @@ class Home extends BaseController {
 
 // if not logged in load generic header for contact page
     if(!($this->login_mod->is_logged())) {
-      echo view('template/header_contact');
+      echo view('template/header');
     }
     else {
 	
@@ -106,38 +106,46 @@ class Home extends BaseController {
   public function register() {
   	echo view('template/header');
 	$email = $this->request->getPost('email') ?? 'none';
-  	$new_usr = $this->mem_mod->get_member_by_email(strtolower($email));
-  	if($new_usr['flag']) {
-  		$data = array();
-  		helper(['form', 'url']);
-  		$data['fname'] = '';
-  		$data['lname'] = '';
-  		$data['email'] = $new_usr['email'];
-  		$data['callsign'] = $new_usr['callsign'];
-  		$data['phone'] = '';
-  		$data['street']= '';
-  		$data['city'] = '';
-  		$data['state_cd'] = $new_usr['state'];
-  		$data['zip_cd'] = '';
-  		$data['msg'] = '';
-  		$data['twitter'] = '';
-  		$data['facebook'] = '';
-  		$data['linkedin'] = '';
-  		$data['googleplus'] = '';
-  		$data['user_types'] = $this->user_mod->get_user_types();
-  		$data['states'] = $this->data_mod->get_states_array();
-  		echo view('public/register_view', $data);
-  	}
-  	else {
-  		$data['title'] = 'Not MDARC Member!';
-      if($new_usr['empty']) {
-        $data['msg'] = 'Please, enter your MDARC email.<br><br>';
-      }
-      else {
-  			$data['msg'] = '<p class="text-danger">You need to be MDARC member.</p> Your email is not listed in the MDARC database. Please, enter your MDARC email to register as a new user.<br><br>';
-      }
-  		echo view('status/status_view', $data);
-  	}
+	if(!$this->user_mod->check_email($email)){
+		$new_usr = $this->mem_mod->get_member_by_email(strtolower($email));
+		if($new_usr['flag']) {
+			$data = array();
+			helper(['form', 'url']);
+			$data['fname'] = '';
+			$data['lname'] = '';
+			$data['email'] = $new_usr['email'];
+			$data['callsign'] = $new_usr['callsign'];
+			$data['phone'] = '';
+			$data['street']= '';
+			$data['city'] = '';
+			$data['state_cd'] = $new_usr['state'];
+			$data['zip_cd'] = '';
+			$data['msg'] = '';
+			$data['twitter'] = '';
+			$data['facebook'] = '';
+			$data['linkedin'] = '';
+			$data['googleplus'] = '';
+			$data['user_types'] = $this->user_mod->get_user_types();
+			$data['states'] = $this->data_mod->get_states_array();
+			echo view('public/register_view', $data);
+		}
+		else {
+			$data['title'] = 'Not MDARC Member!';
+		if($new_usr['empty']) {
+			$data['msg'] = 'Please, enter your MDARC email.<br><br>';
+		}
+		else {
+				$data['msg'] = '<p class="text-danger">You need to be MDARC member.</p> Your email is not listed in the MDARC database. Please, enter your MDARC email to register as a new user.<br><br>';
+		}
+			echo view('status/status_view', $data);
+		}
+	}
+	else {
+		$data['title'] = "Already a User!";
+		$data['msg'] = "You already are registered as a user on this system.";
+		echo view('status/status_view', $data);
+	}
+  	
   	echo view('template/footer');
   }
 
@@ -369,7 +377,7 @@ class Home extends BaseController {
 	public function logout() {
 		$this->login_mod->logout();
 		echo view('template/header');
-		echo view('public/main_view', array('msg' => '<p class="text-success lead"><i class="bi bi-check-circle"></i> You have succesfuly logged out. Thank you and have a great day!</p>'));
+		echo view('public/main_view', array('msg' => '<p class="text-success lead"><i class="bi bi-check-circle"></i> You have succesfuly logged out. Thank you and have a great day!</p>', 'map_key' => getenv('GOOGLE_MAP_API_KEY')));
 		echo view('template/footer');
 	}
 

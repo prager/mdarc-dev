@@ -75,7 +75,6 @@ public function check_credentials($data) {
 
 // get the user data from users table in a row
   $user = $builder->get()->getRow();
-
 // if the user filled his/her credentials then check them if correct via PHP built in function password_verify
   if(isset($data['user']) && isset($user->pass) && isset($user->username)) {
     if((password_verify($data['pass'], $user->pass)) && ($data['user'] == $user->username) && ($user->active == 1 && $user->authorized == 1)) {

@@ -6,7 +6,7 @@
         <h2>Edit Data for: <?php echo $mem['fname'] . ' ' . $mem['lname']; ?></h2>
         <small>(* marks required fields)</small>
           <?php if($msg != NULL) {?>
-            <?php echo $msg; ?>
+            <?php $msg; ?>
           <?php }?>
       </div>
     </div>

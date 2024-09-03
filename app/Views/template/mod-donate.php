@@ -10,17 +10,13 @@
                 <div class="modal-body">
                 <div class="row mt-3 mb-3">
                     <div class="col">
-                    <h4>Donation for:</h4>
+                    <h4>Donation Amount to MDARC:</h4>
                     <small>Minimum total donation $5.00</small>
                     </div>
                 </div>
-                <div class="row mb-5">
-                    <div class="col-lg-6">
-                    <label for="repeater">Repeater</label>
-                    <input type="text" class="form-control" name="repeater" value="$5.00">
-                    </div>
-                    <div class="col-lg-6">
-                    <label for="mdarc_donation">MDARC</label>
+                <div class="row mb-5">                    
+                    <div class="col-lg-8">
+                    <label for="mdarc_donation">Enter Donation Amount</label>
                     <input type="text" class="form-control" name="mdarc_donation" value="$5.00">
                     </div>
                 </div>

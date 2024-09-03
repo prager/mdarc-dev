@@ -50,7 +50,7 @@ class Member extends BaseController {
 	}
 
 	public function renew() {
-		echo view('template/header_light');
+		echo view('template/header_member');
 		$new_usr = $this->mem_mod->get_member_by_email(strtolower($this->request->getPost('email')));
 		if($new_usr['flag']) {
 			$data = array();
@@ -291,7 +291,7 @@ class Member extends BaseController {
 
 	public function search() {
 		if($this->check_mem()) {
-	  	echo view('template/header_staff.php');
+	  	echo view('template/header_member.php');
 			$search_str = $this->request->getPost('search');
 			$data = $this->mem_mod->search($search_str);
 			$data['states'] = $this->data_mod->get_states_array();
@@ -436,9 +436,9 @@ class Member extends BaseController {
 		else {
 			echo view('template/header');
 			$this->login_mod->logout();
-      $data['title'] = 'Login Error';
-      $data['msg'] = 'There was an error while checking your credentials.<br><br>';
-      echo view('status/status_view.php', $data);
+			$data['title'] = 'Login Error';
+			$data['msg'] = 'There was an error while checking your credentials.<br><br>';
+			echo view('status/status_view.php', $data);
 			echo view('template/footer');
 		}
 	}

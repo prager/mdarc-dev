@@ -29,28 +29,25 @@
               <li class="nav-item">
                   <a href="https://pay-v1b.jlkconsulting.info/index.php/mdarc" class="nav-link">Renew Membership</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="helpMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Join-Donate to MDARC
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="helpMenu">
-                  <li class="nav-link"><a href="<?php echo base_url() . '/index.php/add-mem/new-member'; ?>" class="dropdown-item"> &nbsp; Join MDARC</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li class="nav-link"><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#goDonate"> &nbsp; Donate to MDARC</a></li>
-                </ul>
-              </li>
+              <!-- <li class="nav-item">
+                <a href="<?php echo base_url() . '/index.php/add-mem/new-member'; ?>" class="nav-link">Join MDARC</a>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#goDonate">Donate to MDARC</a>
+              </li> -->
               <li class="nav-item">
-                  <a href="<?php echo base_url() . '/index.php/contact'; ?>" class="nav-link">Contact</a>
+                <a href="<?php echo base_url() . '/index.php/faqs'; ?>" class="nav-link">FAQs</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="helpMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   About
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="helpMenu">
-                  <li class="nav-link"><a ><a href="<?php echo base_url() . '/index.php/faqs'; ?>" class="dropdown-item"> &nbsp; FAQs</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li class="nav-link"><a href="#" data-bs-toggle="modal" data-bs-target="#tech" class="dropdown-item"> &nbsp; About</a></li>                  
-                  <li><hr class="dropdown-divider"></li><li class="nav-link"><a ><a href="<?php echo base_url() . '/index.php/terms'; ?>" class="dropdown-item"> &nbsp; Terms of Service</a></li>
+                  <li class="nav-link"><a ><a href="<?php echo base_url() . '/index.php/contact'; ?>" class="dropdown-item"> &nbsp; Contact</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li>
+                  <li class="nav-link"><a ><a href="<?php echo base_url() . '/index.php/faqs'; ?>" class="dropdown-item"> &nbsp; FAQs</a></li>                                     -->
+                  <li><hr class="dropdown-divider">
+                </li><li class="nav-link"><a ><a href="<?php echo base_url() . '/index.php/terms'; ?>" class="dropdown-item"> &nbsp; Terms of Service</a></li>
                 </ul>
               </li>
           </ul>

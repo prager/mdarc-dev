@@ -495,4 +495,16 @@ return $retarr;
       return $retarr;
     }
 
+    public function check_email($email) {
+      $retval = false;
+      $db = \Config\Database::connect();
+      $builder = $db->table('users');
+      $builder->where('email', $email);
+      if($builder->countAllResults() > 0) {
+        $retval = true;
+      }
+
+      return $retval;
+    }
+
 }

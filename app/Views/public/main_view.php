@@ -10,20 +10,17 @@
     <?php }?>
     <div class="d-sm-flex align-items-center justify-content-between pb-1">
       <div class="col-lg-6">
-        <h1>MDARC <span class="text-warning">Memberships</span> - <a href="<?php echo base_url() . '/index.php/add-mem/new-member'; ?>" class="text-decoration-none">Join Us</a>  </h1>
+        <!-- <h1>MDARC <span class="text-warning">Memberships</span> - <a href="<?php echo base_url() . '/index.php/add-mem/new-member'; ?>" class="text-decoration-none">Join Us</a>  </h1> -->
+        <h1>MDARC <span class="text-warning">Memberships</span> - <a href="https://www.mdarc.org/about-us/joinrenewupdate" class="text-decoration-none" target="_blank">Join Us</a>  </h1>
         <p class="mt-xs-5"><small><span class="fw-bold">This is a Membership Portal for MDARC members.</span> For more info click <a href="<?php echo base_url(); ?>/index.php/faqs" class="text-decoration-none">here</a></small></p>
           <form action="<?php echo base_url() . '/index.php/login' ?>" method="post">
             <div class="col-lg-10 mb-3">
-                <label for="user" class="col-form-label">
-                    Username
-                </label>
+                <label for="user" class="form-label">Username</label>
                 <input type="text" class="form-control" id="user" name="user" placeholder="Enter Username"/>
             </div>
             <div class="col-lg-10 mb-4">
-                <label for="pass" class="col-form-label">
-                    Password
-                </label>
-                <input type="password" class="form-control" id="pass" name="pass" placeholder="Enter Password"/>
+                <label for="pass" class="form-label"> Password</label>
+                <input type="password" class="form-control" id="pass"  name="pass" placeholder="Enter Password"/>
             </div>
             <div class="col-lg-10 mb-3">
               <button type="submit" class="btn btn-primary"> Member Login </button>
@@ -78,8 +75,7 @@
               title="Pleasant Hill, CA"
             ></gmp-advanced-marker>
           </gmp-map>
-          <?php $src_str = "https://maps.googleapis.com/maps/api/js?key=AIzaSyB_SZN9vBFgQg_-adkGBNvhZ4zbUMc3J7o&libraries=maps,marker&v=beta"; ?>
-          <script src="<?php echo $src_str; ?>" defer></script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_SZN9vBFgQg_-adkGBNvhZ4zbUMc3J7o&libraries=maps,marker&v=beta" defer></script>
           </div>
     </div>
 </section>

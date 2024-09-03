@@ -549,6 +549,7 @@ class Staff_model extends Model {
           $param['mem_type'] = 'Individual';
           $param['mem_since'] = date('Y', time());
           $param['cur_year'] = date('Y', time());
+          $param['ok_mem_dir'] = true;
           if(date('m', $param['paym_date']) > 9) $param['cur_year']++;
           $builder->resetQuery();
           $builder->insert($param);

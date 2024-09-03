@@ -19,6 +19,7 @@
                         <tr>
                           <th>Name</th>
                           <th>Username</th>
+                          <th>Email</th>
                           <th>User Type</th>
                           <th>Activate/Deactivate</th>
                           <th>Authorize/Unauthorize</th>
@@ -32,6 +33,7 @@
                          <?php include 'modal_update_user.php'; ?></td>
                            <td><a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#resetUsr<?php echo $user['id']; ?>"><?php echo $user['username']; ?></a>
                              <?php include 'mod_reset_user.php'; ?></td>
+                           <td><?php echo $user['email']; ?></td>
                            <td><?php echo $user['type_desc']; ?></td>
                            <td class="text-center">
                              <?php

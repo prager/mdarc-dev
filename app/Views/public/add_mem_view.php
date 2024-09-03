@@ -9,41 +9,55 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-6 offset-lg-1 py-2" style="background-color: lightgrey;">
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item col-lg-12">
-              <h2 class="accordion-header" id="flush-headingOne">
-                  <a href="#" class="accordion-button collapsed text-decoration-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Membership Costs - For Details Click to Expand</a>
-              </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"  data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <div class="row">
+      <div class="col offset-lg-1 py-2">
+        <!-- Link trigger modal -->
+         <?php $month = date('m');?>
+         <?php if ($month > 9) { ?>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#costDetails" class="text-decoration-none">Membership Cost for First Time Members $45.00 - For More Details Click Here</a>
+         <?php } 
+         else {?>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#costDetails" class="text-decoration-none">Membership Cost for First Time Members $30.00 - For More Details Click Here</a>
+         <?php } ?>
+
+        <!-- Modal -->
+        <div class="modal fade" id="costDetails" tabindex="-1" aria-labelledby="costDetailsLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="costDetailsLabel">Membership Cost Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              <div class="row">
                   <div class="col">
                       First time members joining Jan 1 thru Sep 30 (Valid for all of the current year): <strong>$30.00</strong>
                   </div>
                 </div>
-                <div class="row mt-2">
+                <div class="row mt-3">
                     <div class="col">
                         First time members only joining Oct 1 thru Dec 31 (Dues will cover the balance of current year and all of the next year): <strong>$45.00</strong>
                     </div>
                 </div>
-                <div class="row mt-2">
+                <div class="row mt-3">
                     <div class="col">
                         Individual or Family membership renewals (All living at the same address): <strong>$45.00</strong><br />
                         <small><em>Valid for all of the current year. Family members are full members, but a family receives only one copy of the newsletter.</em></small>
                     </div>
                 </div>
-                <div class="row mt-2">
+                <div class="row mt-3">
                     <div class="col">
                         Student membership (must provide copy of student ID to Membership Chair): <strong>$15.00</strong>
                     </div>
                 </div>
               </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
     <div class="row mt-3">
       <div class="col-lg-10 offset-lg-1">
@@ -207,11 +221,11 @@
       </div>
     </div>
     <div class="row mt-1">
-      <div class="col-lg-4 offset-lg-1">
+      <!-- <div class="col-lg-4 offset-lg-1">
         <label for="repeater">Repeater</label>
         <input type="text" class="form-control" name="repeater" value="$0.00">
-      </div>
-      <div class="col-lg-4">
+      </div> -->
+      <div class="col-lg-4 offset-lg-1">
         <label for="mdarc_donation">MDARC</label>
         <input type="text" class="form-control" name="mdarc_donation" value="$0.00">
       </div>
