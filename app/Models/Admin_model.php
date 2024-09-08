@@ -125,6 +125,85 @@ public function put_user_types() {
     return $retarr;
   }
 
+  public function get_payments($dates) {
+
+    $date_from = strtotime($dates['date_from']);
+
+    $date_to = strtotime('+1 days', strtotime($dates['date_to']));
+    $date_to = $date_to - 1;
+
+    $db      = \Config\Database::connect();
+    $builder = $db->table('mem_payments');
+    $builder->where('result', 'success');
+    $builder->where('paydate >=', $date_from);
+    $builder->where('paydate <=', $date_to);
+    $builder->orderBy('paydate', 'ASC');
+
+    $res = $builder->get()->getResult();
+    
+    //echo '<br><br><br><br>cnt: ' . count($res);
+    $retarr = array();
+    $retarr['payments'] = array();
+    $fname = '';
+    $lname = '';
+    $total = 0;
+
+    // save data in .csv file
+    $data_str = "ID-Payments, ID-Member, First-Name, Last-Name, Payment-Date, Pay-Action, Amount\n";
+
+    foreach($res as $payment) {
+    // get member  
+      $id_mem = $payment->id_member;
+      if($id_mem != 0) {
+        $builder->resetQuery();
+        $builder = $db->table('tMembers');
+        $builder->resetQuery();
+        $builder->where('id_members', $id_mem);
+        $mem_obj = $builder->get()->getRow();
+        if($mem_obj != null) {
+          $fname = $mem_obj->fname;
+          $lname = $mem_obj->lname;
+        }
+        else {
+          $lname = 'anonymous';
+        }
+      }
+      else {
+        $lname = 'anonymous';
+      }    
+    // get payaction
+      $builder->resetQuery();
+      $builder = $db->table('payactions');
+      $builder->resetQuery();
+      $builder->where('id_payaction', $payment->id_payaction);
+      $payaction = $builder->get()->getRow()->description;
+      if($payment->id_payaction == 7 || $payment->id_payaction == 5) $payaction = substr($payaction, 0, 8);
+      $pay_amt = '$' . number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "", $payment->amount)), 2);
+
+      $data_str .= strval($payment->id_payment).",".strval($payment->id_member).",".$fname.",".$lname.",".date("Y-m-d", $payment->paydate).",".$payaction.",".$payment->amount."\n";
+
+      $rec_arr = array(
+        'id_payments' => $payment->id_payment,
+        'id_member' => $id_mem,
+        'fname' => $fname,
+        'lname' => $lname,
+        'payaction' => $payaction,
+        'amount' => $pay_amt,
+        'paydate' => $payment->paydate
+      );
+      $total += $payment->amount;
+      array_push($retarr['payments'], $rec_arr);
+    }
+    $db->close();
+    file_put_contents('files/paym_rep.csv', $data_str);
+    $total_fomatted = "$" . number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "", $total)), 2);
+
+    $retarr['dates'] = $dates;
+    $retarr['total'] = $total_fomatted;
+
+    return $retarr;
+  }
+
   private function get_user_types() {
     $db      = \Config\Database::connect();
     $builder = $db->table('admin_types');

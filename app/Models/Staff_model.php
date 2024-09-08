@@ -220,7 +220,7 @@ class Staff_model extends Model {
     $retarr['cnt_silents'] = count($silent_keys);
     $retarr['mem_types'] = $mem_types;
     $retarr['page'] = $param['page'];
-    //$retarr['all_mems'] = $this->get_mem_list();
+//$retarr['all_mems'] = $this->get_mem_list();
     $this->put_files();
 
     return $retarr;

@@ -9,6 +9,7 @@
             <div class="col-md offset-md-1">
               <h3 class="mb-3">Welcome Master!</h3>
               <p>Staff page: <a href="<?php echo base_url() . '/index.php/staff'; ?>" class="text-decoration-none">Staff Page</a></p>
+              <p>Admin page: <a href="<?php echo base_url() . '/index.php/admin'; ?>" class="text-decoration-none">Admin Page</a></p>
               <p>Member page: <a href="<?php echo base_url() . '/index.php/member'; ?>" class="text-decoration-none">Member Page</a></p>
               <p>Add / Edit Members: <a href="<?php echo base_url() . '/index.php/members'; ?>" class="text-decoration-none">MDARC Members</a></p>
               <p>Add MDARC Member: <a href="<?php echo base_url() . '/index.php/add-mem'; ?>" class="text-decoration-none">Add a Member</a></p>

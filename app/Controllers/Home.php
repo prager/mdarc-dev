@@ -29,7 +29,7 @@ class Home extends BaseController {
 
 // if not logged in load generic header for contact page
     if(!($this->login_mod->is_logged())) {
-      echo view('template/header');
+      echo view('template/header_light');
     }
     else {
 	

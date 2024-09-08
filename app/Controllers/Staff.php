@@ -10,7 +10,7 @@ class Staff extends BaseController {
 	public function index() {
 		if($this->check_staff()) {
 		  	echo view('template/header_staff');
-				echo view('staff/staff_view');
+			echo view('staff/staff_view');
 	    }
 	    else {
 			  echo view('template/header');

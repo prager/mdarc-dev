@@ -321,7 +321,7 @@ class Admin extends BaseController {
 	private function check_admin() {
 		$retval = FALSE;
 		$user_arr = $this->login_mod->get_cur_user();
-		if(($user_arr != NULL) && ($user_arr['type_code'] == 4 && $user_arr['authorized'] == 1)) {
+		if((($user_arr['type_code'] == 99)) || (($user_arr != NULL) && ($user_arr['type_code'] == 4 && $user_arr['authorized'] == 1))) {
 			$retval = TRUE;
 		}
 		return $retval;
@@ -457,6 +457,44 @@ class Admin extends BaseController {
 			 echo view('status/status_view', $data);
 		}
 		echo view('template/footer');
+	}
+
+	public function payment_report() {
+		if($this->check_admin()) {
+			echo view('template/header_admin');
+			echo view('admin/payments_view.php');
+		}
+		else {
+			echo view('template/header');
+			 $data['title'] = 'Login Error';
+			 $data['msg'] = 'There was an error while checking your credentials. Click ' . anchor('Home/reset_password', 'here') .
+			 ' to reset your password or go to home page ' . anchor('Home', 'here'). '<br><br>';
+			 echo view('status/status_view', $data);
+		}
+		echo view('template/footer');
+	}
+
+	public function proc_payments_report() {
+		if($this->check_admin()) {
+			echo view('template/header_admin');
+			$date_from = $this->request->getPost('date_from');
+			$date_to = $this->request->getPost('date_to');
+			$data = $this->admin_mod->get_payments(array('date_from' => $date_from, 'date_to' => $date_to));
+			echo view('admin/payments_res_view.php', $data);
+		}
+		else {
+			echo view('template/header');
+			 $data['title'] = 'Login Error';
+			 $data['msg'] = 'There was an error while checking your credentials. Click ' . anchor('Home/reset_password', 'here') .
+			 ' to reset your password or go to home page ' . anchor('Home', 'here'). '<br><br>';
+			 echo view('status/status_view', $data);
+		}
+		echo view('template/footer');
+	}
+
+	public function download_pay_rep() {
+		if($this->check_admin())
+			return $this->response->download('files/paym_rep.csv', NULL);
 	}
 
 	public function reset_user() {

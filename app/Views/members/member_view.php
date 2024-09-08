@@ -48,18 +48,23 @@
                         <label for="carrier"> Hardcopy of The Carrier $18.00</label>
                       </div>
                     </div>
+                    <div class="row m-3">
+                      <div class="col">
+                        <hr>
+                      </div>
+                    </div>
                     <div class="row mt-3 mb-1">
                       <div class="col">
                         <h4>Additional donations</h4>
                       </div>
                     </div>
                     <div class="row mb-5">
-                      <div class="col-lg-6">
+                      <!-- <div class="col-lg-6">
                         <label for="repeater">Repeater</label>
                         <input type="text" class="form-control" name="repeater" value="$0.00">
-                      </div>
-                      <div class="col-lg-6">
-                        <label for="mdarc_donation">MDARC</label>
+                      </div> -->
+                      <div class="col-lg-8">
+                        <label for="mdarc_donation">Donate to MDARC</label>
                         <input type="text" class="form-control" name="mdarc_donation" value="$0.00">
                       </div>
                     </div>

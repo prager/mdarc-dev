@@ -67,6 +67,9 @@ $routes->add('admin-add-fam-mem/(:num)', 'Admin::add_fam_mem');
 $routes->add('admin-fam/(:num)', 'Admin::add_fam_mem');
 $routes->add('admin-add-spouse/(:num)', 'Admin::add_spouse');
 
+$routes->add('payment-report', 'Admin::payment_report');
+$routes->add('proc-payments-report', 'Admin::proc_payments_report');
+
 $routes->add('staff-report', 'Staff::staff_report');
 $routes->add('staff-report/(:alphanum)', 'Staff::staff_report');
 $routes->add('edit-mem', 'Master::edit_mem');
