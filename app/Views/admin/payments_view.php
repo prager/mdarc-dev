@@ -13,7 +13,7 @@
                 $dateTimeFrom = strval(date('Y-m-d', strtotime("-1 months", strtotime($dateTime))));
             ?>
             <div class="col-md offset-md-1">
-              <h3 class="mb-3">Payment Report</h3>
+              <h3 class="mb-3">Select Dates for Payment Report</h3>
 
               <!-- <p>Still to do...<?php echo $dateTimeFrom; ?></p> -->
                

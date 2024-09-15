@@ -480,6 +480,34 @@ class Admin extends BaseController {
 			$date_from = $this->request->getPost('date_from');
 			$date_to = $this->request->getPost('date_to');
 			$data = $this->admin_mod->get_payments(array('date_from' => $date_from, 'date_to' => $date_to));
+			$data['msg'] = '';
+			echo view('admin/payments_res_view.php', $data);
+		}
+		else {
+			echo view('template/header');
+			$data['title'] = 'Login Error';
+			$data['msg'] = 'There was an error while checking your credentials. Click ' . anchor('Home/reset_password', 'here') .
+			' to reset your password or go to home page ' . anchor('Home', 'here'). '<br><br>';
+			echo view('status/status_view', $data);
+		}
+		echo view('template/footer');
+	}
+
+	public function edit_payment() {
+		if($this->check_admin()) {
+			echo view('template/header_admin');
+			$this->uri->setSilent();
+			$param['id_payment'] = $this->uri->getSegment(2);
+			$flag = $this->request->getPost('radFlag');
+			$param['flag'] = 0;
+			if($flag == 'notvalid') $param['flag'] = 1;
+			$param['note'] = $this->request->getPost('note');
+			$this->admin_mod->update_payment($param);
+			$timestamp = time();
+			$date_to = strval(date('Y-m-d', $timestamp));
+			$date_from = strval(date('Y-m-d', strtotime("-1 months", strtotime($date_to)))); 
+			$data = $this->admin_mod->get_payments(array('date_from' => $date_from, 'date_to' => $date_to));
+			$data['msg'] = 'Payment data edited! Thank you...';
 			echo view('admin/payments_res_view.php', $data);
 		}
 		else {
@@ -488,8 +516,7 @@ class Admin extends BaseController {
 			 $data['msg'] = 'There was an error while checking your credentials. Click ' . anchor('Home/reset_password', 'here') .
 			 ' to reset your password or go to home page ' . anchor('Home', 'here'). '<br><br>';
 			 echo view('status/status_view', $data);
-		}
-		echo view('template/footer');
+		}					
 	}
 
 	public function man_payment() {

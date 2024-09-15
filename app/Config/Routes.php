@@ -69,6 +69,7 @@ $routes->add('admin-add-spouse/(:num)', 'Admin::add_spouse');
 
 $routes->add('payment-report', 'Admin::payment_report');
 $routes->add('proc-payments-report', 'Admin::proc_payments_report');
+$routes->add('edit-payment/(:num)', 'Admin::edit_payment');
 
 $routes->add('staff-report', 'Staff::staff_report');
 $routes->add('staff-report/(:alphanum)', 'Staff::staff_report');

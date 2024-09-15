@@ -194,9 +194,11 @@ public function put_user_types() {
         'payaction' => $payaction,
         'amount' => $pay_amt,
         'paydate' => $payment->paydate,
-        'mode' => $mode
+        'mode' => $mode,
+        'flag' => $payment->flag,
+        'note' => $payment->note
       );
-      $total += $payment->amount;
+      if($payment->flag == 0) $total += $payment->amount;
       array_push($retarr['payments'], $rec_arr);
     }
     $db->close();
@@ -207,6 +209,14 @@ public function put_user_types() {
     $retarr['total'] = $total_fomatted;
 
     return $retarr;
+  }
+
+  public function update_payment($param) {
+    $db      = \Config\Database::connect();    
+    $builder = $db->table('mem_payments');
+    $builder->where('id_payment', $param['id_payment']);
+    $builder->update(array('flag' => $param['flag'], 'note' => $param['note']), ['id_payment' => $param['id_payment']]);
+    $db->close();
   }
 
   public function man_payment($param) {
