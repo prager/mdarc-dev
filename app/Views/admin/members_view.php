@@ -57,6 +57,7 @@
                     <th>Pay Dt</th>
                     <th>Mem Since</th>
                     <th>Email</th>
+                    <th>Manual Payment</th>
                     <th>Deactivate</th>
                   </tr>
                 </thead>
@@ -88,6 +89,10 @@
                        echo $mem['email'];
                      }?>
                    </td>
+                    <td>
+                      <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#manPayment<?php echo $mem['id']; ?>">Make Payment</a>
+                      <?php include 'mod_man_payment.php'; ?>
+                    </td>
                     <td class="text-center">
                       <a href="#" data-bs-toggle="modal" data-bs-target="#delMem<?php echo $mem['id']; ?>"><i class="bi bi-trash"></i></a>
                       <?php include 'mod_del_mem.php'; ?>
@@ -135,6 +140,7 @@
                     <th>Pay Dt</th>
                     <th>Mem Since</th>
                     <th>Email</th>
+                    <th>Manual Payment</th>
                     <th>Deactivate</th>
                   </tr>
                 </thead>
@@ -165,6 +171,11 @@
                     else {
                      echo $mem['email'];
                     }?>
+                    </td>
+
+                    <td>
+                      <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#manPayment<?php echo $mem['id']; ?>">Make Payment</a>
+                      <?php include 'mod_man_payment.php'; ?>
                     </td>
                     <td class="text-center">
                       <a href="#" data-bs-toggle="modal" data-bs-target="#delMem<?php echo $mem['id']; ?>"><i class="bi bi-trash"></i></a>

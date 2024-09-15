@@ -55,7 +55,7 @@
              }?>
            </td>
            <td>
-            <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#manPayment<?php echo $mem['id']; ?>">Do Payment</a>
+            <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#manPayment<?php echo $mem['id']; ?>">Make Payment</a>
             <?php include 'mod_man_payment.php'; ?>
            </td>
             <td class="text-center">

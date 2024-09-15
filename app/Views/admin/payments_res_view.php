@@ -34,7 +34,7 @@
                             <th scope="col">Payaction</th>
                             <th scope="col">Method</th>
                             <th scope="col">Amount</th>
-                            <th scope="col">Note</th>
+                            <th scope="col">Remark</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -78,7 +78,7 @@
                                         <div class="modal-body">
                                             <div class="row mb-3">
                                                 <div class="col">
-                                                    <label for="note" class="form-label">Note</label>
+                                                    <label for="note" class="form-label">Remark</label>
                                                     <input class="form-control" type="text" placeholder="Note Text" aria-label="default input example" name="note" id="note" value="<?php echo $payment['note']; ?>">
                                                 </div>
                                             </div>
@@ -100,7 +100,7 @@
                                             </div>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                                             <button type="submit" class="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
