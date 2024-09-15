@@ -149,7 +149,7 @@ public function put_user_types() {
     $total = 0;
 
     // save data in .csv file
-    $data_str = "ID-Payments, ID-Member, First-Name, Last-Name, Payment-Date, Pay-Action, Method, Amount\n";
+    $data_str = "ID-Payments, ID-Member, First-Name, Last-Name, Payment-Date, Pay-Action, Method, Amount, Note\n";
 
     foreach($res as $payment) {
     // get member  
@@ -183,8 +183,11 @@ public function put_user_types() {
       if($payment->val_string == 'man-payment') {
         $mode = 'manual';
       }
+      
+      $rep_amt = 0;
+      if($payment->flag == 0) $rep_amt = $payment->amount;
 
-      $data_str .= strval($payment->id_payment).",".strval($payment->id_member).",".$fname.",".$lname.",".date("Y-m-d", $payment->paydate).",".$payaction.",".$mode.",".$payment->amount."\n";
+      $data_str .= strval($payment->id_payment).",".strval($payment->id_member).",".$fname.",".$lname.",".date("Y-m-d", $payment->paydate).",".$payaction.",".$mode.",".$rep_amt. ",".$payment->note ."\n";
 
       $rec_arr = array(
         'id_payments' => $payment->id_payment,
