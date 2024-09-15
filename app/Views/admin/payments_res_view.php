@@ -18,6 +18,7 @@
                             <th scope="col">Last</th>
                             <th scope="col">Date</th>
                             <th scope="col">Payaction</th>
+                            <th scope="col">Method</th>
                             <th scope="col">Amount</th>
                         </tr>
                     </thead>
@@ -30,6 +31,7 @@
                                 <td><?php echo $payment['lname']; ?></td>
                                 <td><?php echo date("Y-m-d", $payment['paydate']); ?></td>
                                 <td><?php echo $payment['payaction']; ?></td>
+                                <td><?php echo $payment['mode']; ?></td>
                                 <td><?php echo $payment['amount']; ?></td>
                             </tr>
                         <?php } ?>

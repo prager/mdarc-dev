@@ -1,7 +1,6 @@
 <section id="learn" class="p-5">
 <div class="container">
-    <div class="row">&nbsp;</div>
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-lg-12">
       <h4>Search Result</h4>
       <p><?php echo $msg; ?></p>
@@ -16,6 +15,7 @@
             <th>Pay Dt</th>
             <th>Mem Since</th>
             <th>Email</th>
+            <th>Manual Payment</th>
             <th>Deactivate</th>
           </tr>
         </thead>
@@ -53,6 +53,10 @@
              else {
                echo $mem['email'];
              }?>
+           </td>
+           <td>
+            <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#manPayment<?php echo $mem['id']; ?>">Do Payment</a>
+            <?php include 'mod_man_payment.php'; ?>
            </td>
             <td class="text-center">
               <a href="#" data-bs-toggle="modal" data-bs-target="#delMem<?php echo $mem['id']; ?>"><i class="bi bi-trash"></i></a>

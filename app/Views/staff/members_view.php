@@ -4,6 +4,7 @@
                 <div class="row text-centerm">
                   <div class="col-lg-12">
                   <h4>MDARC Members Listing</h4>
+                  <small>For now shows only Primary and Individual paying members. To display family members click on link in "Mem Type" column.</small><br><br>
                       <div class="btn-group" role="group" aria-label="Basic example">
                           <button type="button" class="btn btn-light btn-sm"><?php echo anchor('staff/download_cur_emails', 'Current Emails', 'class="text-decoration-none text-dark"')?></button>
                           <button type="button" class="btn btn-light btn-sm"><?php echo anchor('staff/download_all_mems', 'All Members', 'class="text-decoration-none text-dark"')?></button>

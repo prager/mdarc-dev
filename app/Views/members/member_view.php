@@ -78,9 +78,9 @@
           </div>
             <!-- End of Renewal modal -->
 
-            <tr class="border-bottom">
+            <!-- <tr class="border-bottom">
               <td><a href="#" data-bs-toggle="modal" data-bs-target="#goDonate" class="text-decoration-none text-body nav-link"><i class="bi bi-cash"></i> Donate</a></td>
-            </tr>
+            </tr> -->
             <!-- Donate Modal -->
             <div class="modal fade" id="goDonate" tabindex="-1" aria-labelledby="goDonateLabel" aria-hidden="true">
               <div class="modal-dialog">
@@ -98,10 +98,10 @@
                       </div>
                     </div>
                     <div class="row mb-5">
-                      <div class="col-lg-6">
+                      <!-- <div class="col-lg-6">
                         <label for="repeater">Repeater</label>
                         <input type="text" class="form-control" name="repeater" value="$5.00">
-                      </div>
+                      </div> -->
                       <div class="col-lg-6">
                         <label for="mdarc_donation">MDARC</label>
                         <input type="text" class="form-control" name="mdarc_donation" value="$5.00">

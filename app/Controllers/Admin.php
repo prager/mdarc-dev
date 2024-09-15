@@ -492,6 +492,41 @@ class Admin extends BaseController {
 		echo view('template/footer');
 	}
 
+	public function man_payment() {
+		if($this->check_admin()) {
+			echo view('template/header_admin');
+			$param = array();
+
+			$this->uri->setSilent();
+			$param['id_member'] = $this->uri->getSegment(2);
+
+			$param['payoption'] = $this->request->getPost('payOption');
+			$param['amount'] = $this->request->getPost('amount');
+			$param['paydate'] = $this->request->getPost('pay_date');
+			$status = $this->admin_mod->man_payment($param);
+			if($status) {
+				$data['title'] = 'Manual Payment';
+				$data['msg'] = 'Manual payment was successfuly processed for ID member: ' . $param['id_member'] . '<br><br>';
+				echo view('status/status_view', $data);
+			}
+			else {
+				$data['title'] = 'Manual Payment - Error!';
+				$data['msg'] = 'There was an error while processing the transaction. Go back to home page ' . anchor(base_url(), 'here') .
+				 ' to go to home page<br><br>';
+				echo view('status/status_view', $data);
+			}
+
+		}
+		else {
+			echo view('template/header');
+			 $data['title'] = 'Login Error';
+			 $data['msg'] = 'There was an error while checking your credentials. Click ' . anchor('Home/reset_password', 'here') .
+			 ' to reset your password or go to home page ' . anchor('Home', 'here'). '<br><br>';
+			 echo view('status/status_view', $data);
+		}
+		echo view('template/footer');
+	}
+
 	public function download_pay_rep() {
 		if($this->check_admin())
 			return $this->response->download('files/paym_rep.csv', NULL);

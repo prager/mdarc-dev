@@ -137,7 +137,7 @@ public function put_user_types() {
     $builder->where('result', 'success');
     $builder->where('paydate >=', $date_from);
     $builder->where('paydate <=', $date_to);
-    $builder->orderBy('paydate', 'ASC');
+    $builder->orderBy('id_payment', 'ASC');
 
     $res = $builder->get()->getResult();
     
@@ -149,7 +149,7 @@ public function put_user_types() {
     $total = 0;
 
     // save data in .csv file
-    $data_str = "ID-Payments, ID-Member, First-Name, Last-Name, Payment-Date, Pay-Action, Amount\n";
+    $data_str = "ID-Payments, ID-Member, First-Name, Last-Name, Payment-Date, Pay-Action, Method, Amount\n";
 
     foreach($res as $payment) {
     // get member  
@@ -179,8 +179,12 @@ public function put_user_types() {
       $payaction = $builder->get()->getRow()->description;
       if($payment->id_payaction == 7 || $payment->id_payaction == 5) $payaction = substr($payaction, 0, 8);
       $pay_amt = '$' . number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "", $payment->amount)), 2);
+      $mode = 'via CC';
+      if($payment->val_string == 'man-payment') {
+        $mode = 'manual';
+      }
 
-      $data_str .= strval($payment->id_payment).",".strval($payment->id_member).",".$fname.",".$lname.",".date("Y-m-d", $payment->paydate).",".$payaction.",".$payment->amount."\n";
+      $data_str .= strval($payment->id_payment).",".strval($payment->id_member).",".$fname.",".$lname.",".date("Y-m-d", $payment->paydate).",".$payaction.",".$mode.",".$payment->amount."\n";
 
       $rec_arr = array(
         'id_payments' => $payment->id_payment,
@@ -189,7 +193,8 @@ public function put_user_types() {
         'lname' => $lname,
         'payaction' => $payaction,
         'amount' => $pay_amt,
-        'paydate' => $payment->paydate
+        'paydate' => $payment->paydate,
+        'mode' => $mode
       );
       $total += $payment->amount;
       array_push($retarr['payments'], $rec_arr);
@@ -202,6 +207,66 @@ public function put_user_types() {
     $retarr['total'] = $total_fomatted;
 
     return $retarr;
+  }
+
+  public function man_payment($param) {
+    $retval = true;
+    
+    $pay_data = array();
+    $pay_data['id_payaction'] = 1;
+    if($param['payoption'] == 'donation') $pay_data['id_payaction'] = 7;
+
+    $pay_data['id_member'] = $param['id_member'];
+    $pay_data['id_entity'] = 2;
+    $pay_data['amount'] = floatval($param['amount']);
+    $pay_data['paydate'] = strtotime($param['paydate']);
+    $pay_data['result'] = 'success';
+    $pay_data['val_string'] = 'man-payment';
+    $pay_data['flag'] = 0;
+
+  // get current year for the member
+    $mem_year = 0;
+    $db      = \Config\Database::connect();    
+    $builder = $db->table('tMembers');
+    $builder->where('id_members', $param['id_member']);
+
+    if($pay_data['id_payaction'] == 1) {
+      
+      $yearToday = strval(date('Y'));
+      $monthToday = strval(date('m'));
+      
+      $test_year = $builder->get()->getRow()->cur_year;
+      $mem_year = 0;
+      if($test_year < $yearToday) {
+        if($monthToday > 9) {
+          $mem_year = $yearToday + 1;
+        }
+        else {
+          $mem_year = $yearToday;
+        }
+      }
+      else {
+        $mem_year = $test_year + 1;
+      }      
+      $builder->resetQuery();
+      $builder = $db->table('tMembers');
+      $builder->resetQuery();
+      $builder->update(array('cur_year' => $mem_year, 'paym_date' => $pay_data['paydate']), ['id_members' => $pay_data['id_member']]);
+      $builder->update(array('cur_year' => $mem_year, 'paym_date' => $pay_data['paydate']), ['parent_primary' => $pay_data['id_member']]);
+    }
+    $pay_data['for_year'] = $mem_year;
+
+    $builder->resetQuery();
+    $builder = $db->table('mem_payments');
+    $this->db->transStart();
+    $builder->insert($pay_data);
+    $this->db->transComplete();
+
+    if ($this->db->transStatus() === false) {
+      $retval = false;
+    }
+
+    return $retval;
   }
 
   private function get_user_types() {

@@ -11,7 +11,7 @@
         <?php if($mem['id_mem_types'] == 3 || $mem['id_mem_types'] == 4) { ?>
         <div class="row">
           <div class="col-lg">
-            <p>Family member of: <a href="<?php echo base_url() . '/index.php/show-mem/' . $mem['id_parent'];?>" class="text-decoration-none"><?php echo $mem['parent_fname'] . $mem['parent_lname']; ?></a> / Member Id: <?php echo $mem['id_parent']; ?></p>
+            <p>Family member of: <a href="<?php echo base_url() . '/index.php/show-mem/' . $mem['id_parent'];?>" class="text-decoration-none"><?php echo $mem['parent_fname'] . ' ' . $mem['parent_lname']; ?></a> / Member Id: <?php echo $mem['id_parent']; ?></p>
           </div>
         </div>
         <?php }

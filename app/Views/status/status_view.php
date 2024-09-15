@@ -1,8 +1,7 @@
 <!--Learn Sections-->
 <section id="learn" class="my-3">
     <div class="container">
-      <div class="row">&nbsp;</div>
-        <div class="row align-items-center justify-content-between">
+        <div class="row align-items-center justify-content-between mt-5 pt-5">
             <div class="col-lg">
                 <img src="/img/msg.svg" class="img-fluid w-75 d-none d-lg-block" alt="">
             </div>

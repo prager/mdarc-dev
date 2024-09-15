@@ -4,6 +4,7 @@
           <div class="row">
             <div class="col-lg-12">
             <h4>MDARC Members Listing</h4>
+            <small>For now shows only Primary and Individual paying members.<br><br>
             <div class="btn-group" role="group" aria-label="Basic example">
               <button type="button" class="btn btn-light btn-sm"><?php echo anchor('admin-add-mem', 'Add Member', 'class="text-decoration-none text-dark"')?></button>
               <!--<button type="button" class="btn btn-light btn-sm"><?php echo anchor('staff/download_cur_emails', 'Current Emails', 'class="text-decoration-none text-dark"')?></button>

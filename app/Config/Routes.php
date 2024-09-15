@@ -114,6 +114,8 @@ $routes->add('admin-members-edit', 'Admin::show_members');
 $routes->add('admin-members', 'Admin::show_members');
 $routes->add('admin-members/(:num)', 'Admin::show_members');
 
+$routes->add('man-payment/(:num)', 'Admin::man_payment');
+
 $routes->add('logout', 'Home::logout');
 $routes->add('register', 'Home::register');
 $routes->add('renew', 'Member::renew');
