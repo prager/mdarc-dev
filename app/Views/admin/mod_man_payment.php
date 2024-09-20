@@ -21,27 +21,25 @@
         </div>
         <div class="row my-3">
             <div class="col">
-            <label for="amount">Amount</label>
-            <input type="text" class="form-control" id="amount" name="amount" value="45.00">
+            <label for="amount">Membership Amount</label>
+            $<input type="text" class="form-control" id="amount" name="amount" value="<?php echo number_format($mem_cost, 2, '.', ''); ?>">
             </div>
         </div>
         <div class="row my-3">
-            <div class="col offset-lg-2">
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="payOption" id="payOption2" value="membership" checked>
-                    <label class="form-check-label" for="payOption2">
-                        Membership
-                    </label>
-                </div>                            
-            </div>
             <div class="col">
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="payOption" id="payOption1" value="donation">
-                    <label class="form-check-label" for="payOption1">
-                        Donation
-                    </label>
-                </div>
+            <label for="amount">Donation (must be more than $5.00)</label>
+            $<input type="text" class="form-control" id="donation" name="donation" value="0.00">
             </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="carrier" name="carrier" value="carrier">
+                <label class="form-check-label" for="carrier">
+                  Include hardcopy of The Carrier
+                </label>
+            </div>
+          </div>
         </div>
       </div>
       <div class="modal-footer">

@@ -35,6 +35,7 @@ class Admin extends BaseController {
             $data['states'] = $this->data_mod->get_states_array();
             $data['lic'] = $this->data_mod->get_lic();
             $data['mem_types'] = $this->staff_mod->get_mem_types();
+			$data['mem_cost'] = $this->admin_mod->get_mem_cost();
             echo view('admin/search_res_view.php', $data);
         }
         else {
@@ -75,7 +76,10 @@ class Admin extends BaseController {
 			$param['states'] = $this->data_mod->get_states_array();
 			$param['lic'] = $this->data_mod->get_lic();
 			$param['mem_types'] = $this->admin_mod->get_member_types();
-			echo view('admin/members_view', $this->staff_mod->get_mems($param));
+			$param['mem_cost'] = $this->admin_mod->get_mem_cost();
+			$data = $this->staff_mod->get_mems($param);
+			$data['mem_cost'] = $this->admin_mod->get_mem_cost();
+			echo view('admin/members_view', $data);
 		}
 		else {
 			echo view('template/header');
@@ -188,7 +192,9 @@ class Admin extends BaseController {
 						$param['lic'] = $this->data_mod->get_lic();
 						$param['member_types'] = $this->admin_mod->get_member_types();
 						$param['page'] = 0;
-						echo view('admin/members_view', $this->staff_mod->get_mems($param));
+						$data = $this->staff_mod->get_mems($param);
+						$data['mem_cost'] = $this->admin_mod->get_mem_cost();
+						echo view('admin/members_view', $data);
 					}
 					else {
 						$data['title'] = 'Douplicate Entry Error!';
@@ -526,10 +532,11 @@ class Admin extends BaseController {
 
 			$this->uri->setSilent();
 			$param['id_member'] = $this->uri->getSegment(2);
-
-			$param['payoption'] = $this->request->getPost('payOption');
 			$param['amount'] = $this->request->getPost('amount');
+			$param['donation'] = $this->request->getPost('donation');
 			$param['paydate'] = $this->request->getPost('pay_date');
+			$param['carrier'] = $this->request->getPost('carrier');
+			
 			$status = $this->admin_mod->man_payment($param);
 			if($status) {
 				$data['title'] = 'Manual Payment';
