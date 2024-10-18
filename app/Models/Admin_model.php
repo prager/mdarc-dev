@@ -149,8 +149,8 @@ public function put_user_types() {
     $total = 0;
 
     // save data in .csv file
-    $data_str = "ID-Payments, ID-Member, First-Name, Last-Name, Payment-Date, Pay-Action, Method, Amount, Note\n";
-
+    $data_str = "ID-Payments, ID-Member, First-Name, Last-Name, Payment-Date, Pay-Action, Method, Amount, Fee, Note\n";
+    $fee_total_amt = 0;
     foreach($res as $payment) {
     // get member  
       $id_mem = $payment->id_member;
@@ -183,11 +183,26 @@ public function put_user_types() {
       if($payment->val_string == 'man-payment') {
         $mode = 'manual';
       }
-      
+
+      $builder->resetQuery();
+      $builder = $db->table('payactions');
+      $builder->resetQuery();
+      $builder->where('id_payaction', 17);
+      $fee_amt = $builder->get()->getRow()->amount;
+
+      $builder->resetQuery();
+      $builder->where('id_payaction', 18);
+      $fee_perc = $builder->get()->getRow()->amount;
+      $fee_total = 0;
+      if($mode != 'manual') {
+        $fee_total = number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "",$fee_amt + ($payment->amount * $fee_perc))), 2);
+        $fee_total_amt += ($fee_amt + ($payment->amount * $fee_perc));
+      }
+
       $rep_amt = 0;
       if($payment->flag == 0) $rep_amt = $payment->amount;
 
-      $data_str .= strval($payment->id_payment).",".strval($payment->id_member).",".$fname.",".$lname.",".date("Y-m-d", $payment->paydate).",".$payaction.",".$mode.",".$rep_amt. ",".$payment->note ."\n";
+      $data_str .= strval($payment->id_payment).",".strval($payment->id_member).",".$fname.",".$lname.",".date("Y-m-d", $payment->paydate).",".$payaction.",".$mode.",".$rep_amt."," .$fee_total. ",".$payment->note ."\n";
 
       $rec_arr = array(
         'id_payments' => $payment->id_payment,
@@ -198,6 +213,7 @@ public function put_user_types() {
         'amount' => $pay_amt,
         'paydate' => $payment->paydate,
         'mode' => $mode,
+        'fee' => $fee_total,
         'flag' => $payment->flag,
         'note' => $payment->note
       );
@@ -210,6 +226,7 @@ public function put_user_types() {
 
     $retarr['dates'] = $dates;
     $retarr['total'] = $total_fomatted;
+    $retarr['total_fee'] = "$" . number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "", $fee_total_amt)), 2);
 
     return $retarr;
   }

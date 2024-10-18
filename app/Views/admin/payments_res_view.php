@@ -2,27 +2,27 @@
 <section id="learn" class="py-5">
     <div class="container">
         <div class="row mt-5 pt-3">
-            <div class="col-lg offset-lg-2">
-            <h3 class="mb-3">Payments Report - Total for Period: <?php echo $total; ?></h3>
+            <div class="col-lg offset-lg-1">
+            <h3 class="mb-3">Payments Report - Total for Period: <?php echo $total; ?> | Fees Total: <?php echo $total_fee; ?></h3>
             <p><small>Date From: <?php echo $dates['date_from']; ?> | Date To: <?php echo $dates['date_to']; ?> | <?php echo anchor('admin/download_pay_rep', 'Download Report', 'class="text-decoration-none"')?> | <a href="<?php echo base_url() . '/index.php/payment-report'; ?>" class="text-decoration-none">Select Dates</a></small></p>
             </div>
         </div>
 
         <?php if($msg!= '') { ?>
             <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-danger">
+                <div class="col-lg-8 offset-lg-1 text-danger">
                     <?php echo $msg; ?>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 offset-lg-2">
+                <div class="col-lg-4 offset-lg-1">
                     <hr>
                 </div>
             </div>
         <?php } ?>
         
         <div class="row">
-            <div class="col offset-lg-2">
+            <div class="col offset-lg-1">
                 <table class="table table-stripped">
                     <thead>
                         <tr>
