@@ -27,8 +27,14 @@
         </div>
         <div class="row my-3">
             <div class="col">
-            <label for="amount">Donation (must be more than $5.00)</label>
+            <label for="amount">Donation - MDARC (must be more than $5.00)</label>
             $<input type="text" class="form-control" id="donation" name="donation" value="0.00">
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col">
+            <label for="amount">Donation - Repeater (must be more than $5.00)</label>
+            $<input type="text" class="form-control" id="don_rep" name="don_rep" value="0.00">
             </div>
         </div>
         <div class="row">

@@ -16,7 +16,8 @@
               <td><a href="<?php echo base_url() . '/index.php/show-update'; ?>" class="text-decoration-none text-body nav-link"> <i class="bi bi-gear"></i> Settings</a></td>
             </tr>
             <tr class="border-bottom">
-              <td><a href="#" data-bs-toggle="modal" data-bs-target="#goPay" class="text-decoration-none text-body nav-link"><i class="bi bi-clipboard-check"></i> Renew Membership</a></td>
+              <!-- <td><a href="#" data-bs-toggle="modal" data-bs-target="#goPay" class="text-decoration-none text-body nav-link"><i class="bi bi-clipboard-check"></i> Renew Membership</a></td> -->
+              <td><a href="https://pay-v1b.jlkconsulting.info/index.php/mdarc" class="text-decoration-none text-body nav-link"><i class="bi bi-clipboard-check"></i> Renew Membership</a></td>
             </tr>
 
             <!-- Renewal modal -->
@@ -147,7 +148,7 @@
             <?php }?>
             <?php if($primary['cur_year'] < date('Y', time())) {?>
               <p class="lead text-danger fw-bold">Last Payment: <?php echo $primary['pay_date']; ?> --> Payment Overdue!</p>
-              <p>Click on <a href="#" data-bs-toggle="modal" data-bs-target="#goPay" class="text-decoration-none">Membership Renewal</a> link to renew your membership.</p>
+              <p>Click on <a href="https://pay-v1b.jlkconsulting.info/index.php/mdarc" class="text-decoration-none">Membership Renewal</a> link to renew your membership.</p>
             <?php }
             else { ?>
               <p class="lead">Last Payment: <?php echo $primary['pay_date']; ?></p>

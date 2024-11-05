@@ -534,6 +534,7 @@ class Admin extends BaseController {
 			$param['id_member'] = $this->uri->getSegment(2);
 			$param['amount'] = $this->request->getPost('amount');
 			$param['donation'] = $this->request->getPost('donation');
+			$param['don_rep'] = $this->request->getPost('don_rep');
 			$param['paydate'] = $this->request->getPost('pay_date');
 			$param['carrier'] = $this->request->getPost('carrier');
 			
@@ -564,6 +565,10 @@ class Admin extends BaseController {
 	public function download_pay_rep() {
 		if($this->check_admin())
 			return $this->response->download('files/paym_rep.csv', NULL);
+	}
+	public function download_transactions() {
+		if($this->check_admin())
+			return $this->response->download('files/transactions.csv', NULL);
 	}
 
 	public function reset_user() {

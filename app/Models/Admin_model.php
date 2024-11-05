@@ -149,9 +149,25 @@ public function put_user_types() {
     $total = 0;
 
     // save data in .csv file
-    $data_str = "ID-Payments, ID-Member, First-Name, Last-Name, Payment-Date, Pay-Action, Method, Amount, Fee, Note\n";
+    $data_str = "ID-Payments, ID-Member, ID-Transaction, First-Name, Last-Name, Payment-Date, Pay-Action, Method, Amount, Fee, Note\n";
     $fee_total_amt = 0;
+    $got_trans = false;
+    $id_trans = -1;
     foreach($res as $payment) {
+      $trans_amt = 0;
+      $fee_total = 0;
+      if($payment->id_transaction != 0) {
+        if($id_trans != $payment->id_transaction) {
+          $id_trans = $payment->id_transaction;
+          $builder->resetQuery();
+          $builder = $db->table('transactions');
+          $builder->resetQuery();
+          $builder->where('id_transactions', $id_trans);
+          $trans_amt = $builder->get()->getRow()->fee_amt;
+          $fee_total += $trans_amt;
+        }
+      }
+      
     // get member  
       $id_mem = $payment->id_member;
       if($id_mem != 0) {
@@ -177,35 +193,26 @@ public function put_user_types() {
       $builder->resetQuery();
       $builder->where('id_payaction', $payment->id_payaction);
       $payaction = $builder->get()->getRow()->description;
-      if($payment->id_payaction == 7 || $payment->id_payaction == 5) $payaction = substr($payaction, 0, 8);
+      //if($payment->id_payaction == 7 || $payment->id_payaction == 5) $payaction = substr($payaction, 0, 8);
       $pay_amt = '$' . number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "", $payment->amount)), 2);
       $mode = 'via CC';
       if($payment->val_string == 'man-payment') {
         $mode = 'manual';
       }
 
-      $builder->resetQuery();
-      $builder = $db->table('payactions');
-      $builder->resetQuery();
-      $builder->where('id_payaction', 17);
-      $fee_amt = $builder->get()->getRow()->amount;
-
-      $builder->resetQuery();
-      $builder->where('id_payaction', 18);
-      $fee_perc = $builder->get()->getRow()->amount;
-      $fee_total = 0;
-      if($mode != 'manual') {
-        $fee_total = number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "",$fee_amt + ($payment->amount * $fee_perc))), 2);
-        $fee_total_amt += ($fee_amt + ($payment->amount * $fee_perc));
-      }
-
       $rep_amt = 0;
       if($payment->flag == 0) $rep_amt = $payment->amount;
 
-      $data_str .= strval($payment->id_payment).",".strval($payment->id_member).",".$fname.",".$lname.",".date("Y-m-d", $payment->paydate).",".$payaction.",".$mode.",".$rep_amt."," .$fee_total. ",".$payment->note ."\n";
+      $data_str .= strval($payment->id_payment).",".strval($payment->id_member).",".strval($payment->id_transaction).",".$fname.",".$lname.",".date("Y-m-d", $payment->paydate).",".$payaction.",".$mode.",".$rep_amt."," .$trans_amt. ",".$payment->note ."\n";
 
+      $fee_total_amt += $trans_amt;
+
+      if($got_trans) {
+        
+      }
       $rec_arr = array(
         'id_payments' => $payment->id_payment,
+        'id_trans' => $payment->id_transaction,
         'id_member' => $id_mem,
         'fname' => $fname,
         'lname' => $lname,
@@ -213,13 +220,16 @@ public function put_user_types() {
         'amount' => $pay_amt,
         'paydate' => $payment->paydate,
         'mode' => $mode,
-        'fee' => $fee_total,
+        'fee' => $trans_amt,
         'flag' => $payment->flag,
         'note' => $payment->note
       );
       if($payment->flag == 0) $total += $payment->amount;
       array_push($retarr['payments'], $rec_arr);
     }
+    // get transactions
+    $this->get_fees($date_from, $date_to);
+
     $db->close();
     file_put_contents('files/paym_rep.csv', $data_str);
     $total_fomatted = "$" . number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "", $total)), 2);
@@ -229,6 +239,41 @@ public function put_user_types() {
     $retarr['total_fee'] = "$" . number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "", $fee_total_amt)), 2);
 
     return $retarr;
+  }
+
+  private function get_fees($date_from, $date_to) {
+    $db      = \Config\Database::connect();    
+    $builder = $db->table('transactions');
+    $builder->where('date >=', $date_from);
+    $builder->where('date <=', $date_to);
+    $res = $builder->get()->getResult();
+    $data_str = "ID-Transaction, ID-Member, First-Name, Last-Name, Payment-Date, Total, Fee\n";
+    
+    foreach($res as $trans) {
+      $id_mem = $trans->id_member;
+      $fname = "";
+      $lname = "";
+      if($id_mem != 0) {
+        $builder->resetQuery();
+        $builder = $db->table('tMembers');
+        $builder->resetQuery();
+        $builder->where('id_members', $id_mem);
+        $mem_obj = $builder->get()->getRow();
+        if($mem_obj != null) {
+          $fname = $mem_obj->fname;
+          $lname = $mem_obj->lname;
+        }
+        else {
+          $lname = 'anonymous';
+        }
+      }
+      else {
+        $lname = 'anonymous';
+      } 
+      $data_str .= strval($trans->id_transactions).",".strval($trans->id_member).",".$mem_obj->fname.",".$mem_obj->lname.",".date("Y-m-d", $trans->date).",".strval($trans->total_amt).",".strval($trans->fee_amt) ."\n";
+    }
+    $db->close();
+    file_put_contents('files/transactions.csv', $data_str);
   }
 
   public function get_mem_cost() {
@@ -259,9 +304,13 @@ public function put_user_types() {
     $pay_data['result'] = 'success';
     $pay_data['val_string'] = 'man-payment';
     $pay_data['flag'] = 0;
+    $pay_data['id_transaction'] = 0;
+    $pay_data['fee_amt'] = 0;
     
     $donation = floatval($param['donation']);
+    $don_rep = floatval($param['don_rep']);
     unset($param['donation']);
+    unset($param['don_rep']);
 
     $carrier = 'false';
     $car_val = $param['carrier'];
@@ -312,6 +361,16 @@ public function put_user_types() {
     if($donation >= 5) {
       $pay_data['id_payaction'] = 7;
       $pay_data['amount'] = $donation;
+      $builder->resetQuery();
+      $builder = $db->table('mem_payments');
+      $this->db->transStart();
+      $builder->insert($pay_data);
+      $this->db->transComplete();
+    }
+
+    if($don_rep >= 5) {
+      $pay_data['id_payaction'] = 5;
+      $pay_data['amount'] = $don_rep;
       $builder->resetQuery();
       $builder = $db->table('mem_payments');
       $this->db->transStart();

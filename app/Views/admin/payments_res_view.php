@@ -4,7 +4,7 @@
         <div class="row mt-5 pt-3">
             <div class="col-lg offset-lg-1">
             <h3 class="mb-3">Payments Report - Total for Period: <?php echo $total; ?> | Fees Total: <?php echo $total_fee; ?></h3>
-            <p><small>Date From: <?php echo $dates['date_from']; ?> | Date To: <?php echo $dates['date_to']; ?> | <?php echo anchor('admin/download_pay_rep', 'Download Report', 'class="text-decoration-none"')?> | <a href="<?php echo base_url() . '/index.php/payment-report'; ?>" class="text-decoration-none">Select Dates</a></small></p>
+            <p><small>Date From: <?php echo $dates['date_from']; ?> | Date To: <?php echo $dates['date_to']; ?> | <?php echo anchor('admin/download_pay_rep', 'Download Report', 'class="text-decoration-none"')?> | <?php echo anchor('admin/download_transactions', 'Download Transactions', 'class="text-decoration-none"')?> | <a href="<?php echo base_url() . '/index.php/payment-report'; ?>" class="text-decoration-none">Select Dates</a></small></p>
             </div>
         </div>
 
@@ -27,6 +27,7 @@
                     <thead>
                         <tr>
                             <th scope="col">ID Payments</th>
+                            <th scope="col">ID Trans</th>
                             <th scope="col">ID Member</th>
                             <th scope="col">First</th>
                             <th scope="col">Last</th>
@@ -34,6 +35,7 @@
                             <th scope="col">Payaction</th>
                             <th scope="col">Method</th>
                             <th scope="col">Amount</th>
+                            <th scope="col">Fee</th>
                             <th scope="col">Remark</th>
                         </tr>
                     </thead>
@@ -42,6 +44,7 @@
                             <?php if($payment['flag'] == 0) { ?>
                             <tr>
                                 <td><a href="#" data-bs-toggle="modal" data-bs-target="#editModal<?php echo $payment['id_payments']; ?>" class="text-decoration-none"><?php echo $payment['id_payments']; ?></a></td>
+                                <td><?php echo $payment['id_trans']; ?></td>
                                 <td><?php echo $payment['id_member']; ?></td>
                                 <td><?php echo $payment['fname']; ?></td>
                                 <td><?php echo $payment['lname']; ?></td>
@@ -49,6 +52,7 @@
                                 <td><?php echo $payment['payaction']; ?></td>
                                 <td><?php echo $payment['mode']; ?></td>
                                 <td><?php echo $payment['amount']; ?></td>
+                                <td><?php echo $payment['fee']; ?></td>
                                 <td><?php echo $payment['note']; ?></td>
                             </tr>                            
                             <?php } 
@@ -61,6 +65,7 @@
                                     <td><?php echo date("Y-m-d", $payment['paydate']); ?></td>
                                     <td><?php echo $payment['payaction']; ?></td>
                                     <td><?php echo $payment['mode']; ?></td>
+                                    <td>$0.00</td>
                                     <td>$0.00</td>
                                     <td><?php echo $payment['note']; ?></td>
                                 </tr> 
