@@ -9,6 +9,10 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
 
+use ThirdParty\PHPMailer\Exception;
+use ThirdParty\PHPMailer\PHPMailer;
+use ThirdParty\PHPMailer\SMTP;
+
 /**
  * Class BaseController
  *

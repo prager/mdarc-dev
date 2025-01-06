@@ -25,6 +25,36 @@ class Home extends BaseController {
 	echo view('public/terms');
   }
 
+  public function test_email() {	
+
+	$email = service('email');
+
+	$config['protocol'] = 'smtp';
+	$config['SMTPHost'] = 'smtp.ionos.com';
+	$config['SMTPUser'] = 'mdarc-memberships@arrleb.org';
+	$config['SMTPPass'] = 'CKPrb56yg!4Q$vC';
+	$config['SMTPPort'] = 587;
+	$config['mailType'] = 'html';
+
+	$email->initialize($config);
+
+	$email->setFrom('mdarc-memberships@arrleb.org', 'MDARC Membership Chair');
+	$email->setTo('jkulisek.us@gmail.com');
+	
+	$email->setSubject('Email Test');
+	$email->setMessage('<h1>Send HTML Email using SMTP in CodeIgniter</h1>
+            <p>This is a test email sending using SMTP mail server with PHPMailer.</p>');
+
+	if($email->send()) {
+		$data['status']='OK!';
+	}
+	else {
+		$data['status'] = 'Error!';
+	}
+
+	echo view('email_send_view.php', $data);
+  }
+
   public function contact() {
 
 // if not logged in load generic header for contact page

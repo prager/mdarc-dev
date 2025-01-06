@@ -790,13 +790,8 @@ class Staff_model extends Model {
     $builder = $db->table('tMembers');
     $builder->where('paym_date >', $from);
     $builder->where('paym_date <', $to);
+    $builder->where('id_mem_types',1);
     $builder->where('mem_since <', date('Y', $to));
-    //$builder->where('id_mem_types', 1);
-    //$builder->orWhere('id_mem_types', 2);
-    //echo '<br><br><br> this yr: ' . date('Y', $to);
-    //echo '<br>from: ' . $from . ' / ' . date('Y-m-d', $from);
-    //echo '<br>to: ' . $to . ' / ' . date('Y-m-d', $to);
-    $db->close;
     $res = $builder->get()->getResult();
     $retarr = array();
     foreach($res as $mem) {
@@ -810,6 +805,28 @@ class Staff_model extends Model {
       );
       array_push($retarr, $mem_arr);
     }
+    $builder->resetQuery();
+    $builder = $db->table('tMembers');
+    $builder->where('paym_date >', $from);
+    $builder->where('paym_date <', $to);
+    $builder->where('id_mem_types',2);
+    $builder->where('mem_since <', date('Y', $to));
+    $res = $builder->get()->getResult();
+    $retarr = array();
+    foreach($res as $mem) {
+      $mem_arr = array(
+        'id' => $mem->id_members,
+        'fname' => $mem->fname,
+        'lname' => $mem->lname,
+        'callsign' => $mem->callsign,
+        'license' => $mem->license,
+        'payment_date' => $mem->paym_date
+      );
+      array_push($retarr, $mem_arr);
+    }
+    $builder->resetQuery();
+
+    $db->close;
     return $retarr;
   }
 

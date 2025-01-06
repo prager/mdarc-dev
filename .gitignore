@@ -22,3 +22,5 @@ application/logs/*
 !application/logs/.htaccess
 /vendor/
 .cache_ggshield
+
+.codegpt

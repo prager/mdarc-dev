@@ -299,20 +299,46 @@ class User_model extends Model {
           $retarr['db_flag'] = FALSE;
       }
 
-//send email to user with verification string
-      $recipient = $param['email'];
-      $subject = 'MDARC Member Password Change';
-      $message = 'To change your password for MDARC Membership Portal click on the following link or copy paste in the browser: ' . $param['verifystr'] . "\n\n";
-      $message .= 'Thank you for being a loyal MDARC Member!';
-	   	mail($recipient, $subject, $message);
+//setup email
+
+      $email = service('email');
+
+      $config['protocol'] = 'smtp';
+      $config['SMTPHost'] = 'smtp.ionos.com';
+      $config['SMTPUser'] = 'mdarc-memberships@arrleb.org';
+      $config['SMTPPass'] = 'CKPrb56yg!4Q$vC';
+      $config['SMTPPort'] = 587;
+      $config['mailType'] = 'html';
+
+      $email->initialize($config);
+
+      $email->setFrom('mdarc-memberships@arrleb.org', 'MDARC Membership Chair');
 
 //send email to user with verification string
-      $recipient = 'jkulisek.us@gmail.com';
-      $subject = 'MDARC Member Password Change';
+      $email->setTo($param['email']);
+      $email->setSubject('MDARC Member Password Change');
+      $message = 'To change your password for MDARC Membership Portal click on the following link or copy paste in the browser: ' . $param['verifystr'] . "\n\n";
+      $message .= 'Thank you for being a loyal MDARC Member!';
+      $email->setMessage($message);
+      $email->setFrom('mdarc-memberships@arrleb.org', 'MDARC Membership Chair');
+
+      if(!$email->send()) {
+        echo 'in send to user';
+        $retarr['flag'] = FALSE;
+      }
+
+//send email to user with verification string
+      $email->setTo('jkulisek.us@gmail.com');
+      $email->setFrom('mdarc-memberships@arrleb.org', 'MDARC Membership Chair');
+      $email->setSubject('MDARC Member Password Change to Admin');
       $message = 'From: ' . $param['email'] . "\n\n";
       $message .= 'To change your password for MDARC Membership Portal click on the following link or copy paste in the browser: ' . $param['verifystr'] . "\n\n";
-      $message .= 'Thank you for being a loyal MDARC Member!';
-	   	mail($recipient, $subject, $message);
+      $email->setMessage($message);
+
+      if(!$email->send()) {
+        echo 'in send to admin';
+        $retarr['flag'] = FALSE;
+      }
     }
     else {
       $retarr['flag'] = FALSE;

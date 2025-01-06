@@ -173,6 +173,8 @@ $routes->add('public-renewdon', 'Home::public_renewdon');
 $routes->add('donate', 'Home::donate');
 $routes->add('terms', 'Home::terms');
 
+$routes->add('test-email', 'Home::test_email');
+
 /*
  * --------------------------------------------------------------------
  * Route Definitions

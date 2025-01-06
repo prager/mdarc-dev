@@ -27,7 +27,7 @@
                   <a href="<?php echo base_url(); ?>" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                  <a href="https://pay-v1b.jlkconsulting.info/index.php/mdarc" class="nav-link">Renew Membership</a>
+                  <a href="https://pay-test.jlkconsulting.info/index.php/mdarc" class="nav-link">Renew Membership</a>
               </li>
               <!-- <li class="nav-item">
                 <a href="<?php echo base_url() . '/index.php/add-mem/new-member'; ?>" class="nav-link">Join MDARC</a>
